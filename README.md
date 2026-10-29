@@ -7,4 +7,6 @@
 
 - [每日检索可速查总结](每日检索可速查总结.md)
 - [检索规范与日报模板](docs/检索规范与日报模板.md)
+- [每日生图搜索流程规划](docs/每日生图搜索流程规划.md)
+- [完整检索技能与 references](skills/image-workflow-research/SKILL.md)
 - 日报保存路径：`daily/YYYY-MM-DD.md`，首份日报在定时任务首次执行后生成。
