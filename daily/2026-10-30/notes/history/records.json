@@ -2,10 +2,10 @@
   "schema_version": 1,
   "kind": "historical_broad_discovery",
   "archive_date": "2026-10-30",
-  "searched_at": "2026-10-30 09:12:34 +08:00",
+  "searched_at": "2026-10-30T02:26:31+08:00",
   "window": {
     "start": "2026-06-30T00:00:00+08:00",
-    "end": "2026-10-30 09:12:34 +08:00"
+    "end": "2026-10-30T02:26:31+08:00"
   },
   "research_model": "gpt-6.1-terra",
   "research_agents": 6,
@@ -4278,5 +4278,7 @@
       "related_urls": [],
       "source_group": "github"
     }
-  ]
+  ],
+  "archived_at": "2026-10-30 09:12:34 +08:00",
+  "time_note": "检索时间以各来源覆盖日志为准；归档时间为09:12，本次汇总既有历史检索，不声称02:26之后开展新增搜索。"
 }
