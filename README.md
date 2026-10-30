@@ -17,7 +17,7 @@
 | [收录规范与日报模板](docs/检索规范与日报模板.md) | 来源、署名、证据状态与汇总格式 |
 | [资料库维护指南](docs/资料库维护指南.md) | 去重、更正、失效链接与索引维护 |
 | [搜索 skill](skills/image-workflow-research/SKILL.md) | 面向每日广泛发现的搜索方法与按需深入学习 |
-| [贴吧专用工具](docs/贴吧检索工具使用说明.md) | 游客态已测通的只读脚本、MCP与6条原帖补查 |
+| [贴吧专用工具](docs/贴吧检索工具使用说明.md) | 每日默认 aiotieba；Astron MCP 仅留档备用 |
 | [AGENTS.md](AGENTS.md) | 后续助手的执行入口 |
 
 ## 每日主要发现什么
@@ -34,6 +34,8 @@
 **百度贴吧的 stable diffusion／stablediffusion 吧、comfyui 吧，bilibili、Reddit、Hugging Face、GitHub，以及 Civitai 社区／论坛。**
 
 逐平台查找社区文章、教程、模型／版本讨论、工作流、带配方的作品和经验分享；根据线索补充其他有效论坛与作者资料。记录实际检索和访问范围，尽量追溯到原作者原帖。
+
+贴吧每日默认使用 **aiotieba 只读脚本**，复用已有环境；Astron MCP 仅留档备用，正常每日不启动或重复检索。具体顺序与备用启用条件见[工具说明](docs/贴吧检索工具使用说明.md)。
 
 ## 两类搜索怎样配合
 
