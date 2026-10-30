@@ -1,0 +1,250 @@
+{
+  "checked_at": "2026-10-30T14:40:50.100158+08:00",
+  "versions": {
+    "Python": "3.12.14",
+    "aiotieba": "4.8.2",
+    "astron-tieba-mcp": "0.1.7",
+    "mcp": "1.30.0"
+  },
+  "guest_only": true,
+  "browser_login_used": false,
+  "mcp_initialized": true,
+  "mcp_tools": [
+    "get_hot_list",
+    "get_feed_list",
+    "search_content",
+    "get_content_detail",
+    "get_author_profile",
+    "get_author_content_list"
+  ],
+  "mcp_call_is_error": false,
+  "probe_calls": [
+    {
+      "tool": "aiotieba",
+      "operation": "get_forum stablediffusion",
+      "at": "2026-10-30T14:30:46.366887+08:00",
+      "status": "ok",
+      "count": 0,
+      "error": ""
+    },
+    {
+      "tool": "aiotieba",
+      "operation": "search_in_forum stablediffusion 工作流",
+      "at": "2026-10-30T14:30:51.477506+08:00",
+      "status": "ok",
+      "count": 5,
+      "error": ""
+    },
+    {
+      "tool": "aiotieba",
+      "operation": "get_posts 8805822694",
+      "at": "2026-10-30T14:30:54.386274+08:00",
+      "status": "ok",
+      "count": 1,
+      "error": ""
+    },
+    {
+      "tool": "aiotieba",
+      "operation": "get_forum comfyui",
+      "at": "2026-10-30T14:30:56.090245+08:00",
+      "status": "ok",
+      "count": 0,
+      "error": ""
+    },
+    {
+      "tool": "aiotieba",
+      "operation": "search_in_forum comfyui 工作流",
+      "at": "2026-10-30T14:30:56.485585+08:00",
+      "status": "ok",
+      "count": 5,
+      "error": ""
+    },
+    {
+      "tool": "aiotieba",
+      "operation": "get_posts 8848314410",
+      "at": "2026-10-30T14:30:57.460162+08:00",
+      "status": "ok",
+      "count": 1,
+      "error": ""
+    },
+    {
+      "tool": "aiotieba",
+      "operation": "search_global comfyui 工作流",
+      "at": "2026-10-30T14:30:58.553770+08:00",
+      "status": "ok",
+      "count": 5,
+      "error": ""
+    },
+    {
+      "tool": "Astron",
+      "operation": "get_feed_list stablediffusion",
+      "at": "2026-10-30T14:30:46.429191+08:00",
+      "status": "ok",
+      "count": 3,
+      "error": ""
+    },
+    {
+      "tool": "Astron",
+      "operation": "get_feed_list comfyui",
+      "at": "2026-10-30T14:30:56.382571+08:00",
+      "status": "ok",
+      "count": 3,
+      "error": ""
+    },
+    {
+      "tool": "Astron",
+      "operation": "search_content stablediffusion 工作流",
+      "at": "2026-10-30T14:31:00.140711+08:00",
+      "status": "ok",
+      "count": 3,
+      "error": ""
+    },
+    {
+      "tool": "Astron",
+      "operation": "search_content comfyui 工作流",
+      "at": "2026-10-30T14:31:03.138423+08:00",
+      "status": "ok",
+      "count": 3,
+      "error": ""
+    }
+  ],
+  "discovery_scope": {
+    "forum_pages": 4,
+    "keyword_queries": 4,
+    "unique_listing_candidates": 89,
+    "detail_threads_read": 10,
+    "selected_records": 6
+  },
+  "records": [
+    {
+      "id": "TB-01",
+      "tid": 11146103648,
+      "title": "推荐一个MOSS的构图框控节点",
+      "url": "https://tieba.baidu.com/p/11146103648",
+      "forum": "stablediffusion",
+      "author": "雷蛇Official",
+      "published_at": "2026-10-29T00:58:17+08:00",
+      "date_evidence": "aiotieba get_posts返回楼主首楼create_time=1793206697",
+      "suitable_tags": [
+        "构图控制",
+        "区域提示"
+      ],
+      "suitable_summary": "作者分享将框选布局转换为 MOSS JSON 提示的节点，并在第4楼提醒位置文字必须与框一致。",
+      "artstyle_summary": "—（布局控制方法）",
+      "summary": "作者称节点支持分区提示、分辨率适配与预览；位置遵循的强弱属于作者个案体验，节点代码和例图未核。",
+      "public_parameters": "未给出完整采样设置；作者建议分区文字的位置表述与框坐标一致。",
+      "public_resources": [
+        "https://github.com/yndear41/ComfyUI-MOSS-Layout-YDR"
+      ],
+      "read_level": "第1–6楼文字；其中第1、4楼为作者方法与补充，图像和楼中楼未核。",
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+    },
+    {
+      "id": "TB-02",
+      "tid": 11145625394,
+      "title": "MOSS-Image 加速节点推荐",
+      "url": "https://tieba.baidu.com/p/11145625394",
+      "forum": "stablediffusion",
+      "author": "◆旧梦◆",
+      "published_at": "2026-10-28T20:40:04+08:00",
+      "date_evidence": "aiotieba get_posts返回楼主首楼create_time=1793191204",
+      "suitable_tags": [
+        "采样加速",
+        "节点配置"
+      ],
+      "suitable_summary": "作者介绍 Spectrum-MOSS 节点的分阶段预测，以及速度和细节保持之间的取舍。",
+      "artstyle_summary": "—（采样加速技术）",
+      "summary": "作者将采样过程分为 warmup、guard、post_guard、tail，并说明随步数增多，提速与细节变化也可能增大。其速度比例是作者报告，未独立复跑。",
+      "public_parameters": "文中讨论 warmup_steps、detail_guard_steps、tail_actual_steps、post_guard_horizon_cap；没有统一推荐数值。",
+      "public_resources": [
+        "https://github.com/Rkkss/ComfyUI-Spectrum-MOSS"
+      ],
+      "read_level": "第1–13楼文字；正文参数说明与相关回帖已读，图片和楼中楼未核。",
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+    },
+    {
+      "id": "TB-03",
+      "tid": 11139687686,
+      "title": "自己业余肝了个 ComfyUI 的在线练习站，欢迎吧友测试",
+      "url": "https://tieba.baidu.com/p/11139687686",
+      "forum": "comfyui",
+      "author": "小胖喵就是我",
+      "published_at": "2026-10-26T22:11:17+08:00",
+      "date_evidence": "aiotieba get_posts返回楼主首楼create_time=1793023877",
+      "suitable_tags": [
+        "ComfyUI入门",
+        "节点学习"
+      ],
+      "suitable_summary": "作者介绍 ComfyLearn 在线练习资源，包含节点查询、连线练习和报错学习等入口。",
+      "artstyle_summary": "—（学习工具）",
+      "summary": "作者将理论、题库、节点信息和实操整合为网页练习站；节点数量、覆盖完整度和免费情况均为作者介绍，站点未独立打开。",
+      "public_parameters": "原帖称网站地址在截图中；本次未读图，未取得可核实的站点直达链接。",
+      "public_resources": [],
+      "read_level": "第1–2楼文字；未读取入口截图或验证站点。",
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+    },
+    {
+      "id": "TB-04",
+      "tid": 11142726114,
+      "title": "大肥鱼带表情差分",
+      "url": "https://tieba.baidu.com/p/11142726114",
+      "forum": "stablediffusion",
+      "author": "核氰合锂",
+      "published_at": "2026-10-27T21:41:52+08:00",
+      "date_evidence": "aiotieba get_posts返回楼主首楼create_time=1793108512",
+      "suitable_tags": [
+        "人物表情",
+        "风格LoRA"
+      ],
+      "suitable_summary": "作者分享一组人物表情差分，并给出 WAI 系列底模和一枚风格 LoRA 名称。",
+      "artstyle_summary": "按作者描述，本例色彩偏浅；例图未核，人物比例、五官与表情处理待确认。",
+      "summary": "作者公开的资源为 WAI 系列与 K4n4m3n4k4-000015，并将其称为 Kanamenaka 画风；底模精确版本、权重和完整提示未取得。",
+      "public_parameters": "WAI 系列，具体版本未说明；LoRA 文件名 K4n4m3n4k4-000015；权重与完整配方未说明。",
+      "public_resources": [],
+      "read_level": "第1–3楼文字；仅作者描述，未看示范图。",
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+    },
+    {
+      "id": "TB-05",
+      "tid": 11091171014,
+      "title": "Anima有哪些画师串好用啊",
+      "url": "https://tieba.baidu.com/p/11091171014",
+      "forum": "stablediffusion",
+      "author": "otz83",
+      "published_at": "2026-10-10T00:34:05+08:00",
+      "date_evidence": "aiotieba get_posts返回楼主首楼create_time=1791563645",
+      "suitable_tags": [
+        "画师混合",
+        "提示词语法"
+      ],
+      "suitable_summary": "讨论 Anima 画师标签、混合节点与 LoRA 的差异，回帖对语法和数量限制存在不同说法。",
+      "artstyle_summary": "—（讨论混合方法，未描述特定画风）",
+      "summary": "楼主寻求无 LoRA 的组合方式，回帖涉及标签写法、条件混合及专用节点。前端、版本和编码路径未统一，不能据此建立画师数量硬上限或通用权重。",
+      "public_parameters": "回帖中的数量、AND/@语法和加权建议尚未核对作者模型卡及节点实现，不作为已确认推荐设置。",
+      "public_resources": [],
+      "read_level": "第1–8楼文字；原帖和回帖公开讨论已读，图片、楼中楼及机制未进一步验证。",
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+    },
+    {
+      "id": "TB-06",
+      "tid": 11146030900,
+      "title": "孩子们，moss训练真得用中文",
+      "url": "https://tieba.baidu.com/p/11146030900",
+      "forum": "stablediffusion",
+      "author": "白泽千岁",
+      "published_at": "2026-10-29T00:23:58+08:00",
+      "date_evidence": "aiotieba get_posts返回楼主首楼create_time=1793204638",
+      "suitable_tags": [
+        "LoRA训练",
+        "标注语言"
+      ],
+      "suitable_summary": "作者与回帖者讨论 MOSS 中文／中英文标注经验，以及角色 LoRA 对画风的影响。",
+      "artstyle_summary": "—（标注经验，非具体画风设计）",
+      "summary": "作者报告尝试角色和风格 LoRA，认为中文或中英文标注可能有帮助；回帖提到更详细触发词的影响。没有同条件对照，不能推导中文标注普遍更优。",
+      "public_parameters": "训练配置、样本和模型精确版本未取得；语言、触发词详细程度及其他因素未隔离。",
+      "public_resources": [],
+      "read_level": "第1–8楼文字；归纳与标注相关讨论，未看训练样图或执行训练。",
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+    }
+  ]
+}
