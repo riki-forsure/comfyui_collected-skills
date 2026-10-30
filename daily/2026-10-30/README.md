@@ -1,18 +1,200 @@
-# 2026-10-30 每日社区发现
+# 2026-10-30 每日社区发现：近四个月历史补录
 
-本页为社区分享的当日归档入口，尚未执行本日实际检索。感谢原作者的公开分享；正式条目将保留作者署名与原文直达链接，本库整理备注另行标明。
+感谢原作者分享。本页为社区内容汇总，原作者、原文链接、公开配置和实际读取范围保留；本库概述与观察另行标明。
 
-- 北京日期：2026-10-30
-- 检索类型：每日广泛发现
-- 执行状态：待首次检索（仅建立目录与模板）
-- 实际检索时间／覆盖时间窗：未开始
-- 当日实际发现：尚无检索记录，不代表社区没有新增分享
-- 固定来源覆盖：尚未执行，不标记任何平台为已检查
+- 原始分享／版本时间窗：2026-06-30 00:00至2026-10-30 09:12:34 +08:00（北京时间）。
+- 本次归档：2026-10-30；六个gpt-6.1-terra子代理执行。
+- 结果：122条日期有原始依据的资料／版本，11条待核线索。
+- 同一资源不同实质版本与配套教程可分别记录；多源记录不当作独立效果验证。
+- 执行状态：本轮已归档；贴吧受限，视频观看与实际复跑未进行。
+- 本次为无具体差距要求的广泛历史发现，不代表全部内容发表于今天。
 
-## 当日分享
+[历史补录总览](notes/history/README.md) · [覆盖与限制](notes/history/coverage.md) · [结构化记录](notes/history/records.json) · [全库索引](../../每日检索可速查总结.md)
 
-待实际检索后按[日报模板](../../docs/检索规范与日报模板.md)填写；此次目录初始化不计为已报道条目。
+## 今日先看
 
-## 后续执行
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [CVA-08 Facial Expression Tags Dictionary for Illust…](https://civitai.com/articles/34888) | 2026-09-12 | Illustrious·人物表情·提示词｜表情标签词典按情绪、眼眉口、符号等分类；作者标记效果不确定词条，强调与… | 风格待确认（例图未核） | Nonichill | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-08) |
+| [CV-02 Anima Text to Image ［ControlNet (3D Pose, Re…](https://civitai.com/models/2742675?modelVersionId=3428980) | 2026-10-25 | Anima·区域控制·工作流｜v1.3 增加 LoRA 高低噪声分段、split condition… | —（不涉及具体画风） | Marui_Melons | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-02) |
+| [HF-07 AniSee V2 Base/Aesthetic/Turbo](https://huggingface.co/SeeSee21/AniSee) | 2026-09-06 | 动漫插画·Anima·后训练｜旧仓库新发布V2三款权重；作者说明为单个 LoKr 合并，区别于 V1… | 动漫插画｜作者称更干净的动漫风；例图未核，人物造型及色彩光影待确认。 | SeeSee21 | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-07) |
+| [GH-01 Anima Artist Mixer：post-adapter 混合与锚点](https://github.com/An1X3R/Anima-Artist-Mixer/commit/8e6c780cb1fd2cb3532efaa623ad5ae510b5a2d5) | 2026-07-27 | 画师混合·Anima｜26.8.1 已加入 post-LLMAdapter 多画师混合；26… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | An1X3R | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-01) |
+| [OF-03 Anima 风格提示词固定种子对照](https://note.com/ai_0049/n/n74ccab5370e0) | 2026-07-12 | 画风提示·对照实验｜作者固定种子和简单构图测试 108 个风格提示词并讨论限制。 | 风格待确认｜作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上… | おーら | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-03) |
+| [BV1VKe46XEsP 【ComfyUI】Anima提示词扩写 TIPO v2.1｜使用详解&本地安装教程](https://www.bilibili.com/video/BV1VKe46XEsP/) | 2026-09-19 | Anima提示词·自动化｜API简介给出TIPO示例工作流、模型发布页与节点。 | —（不涉及具体画风） | Zove-try | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1vke46xesp) |
+| [HF-15 Qwen-Image-2.1-Outfit-Swap-Consistency-LoRA …](https://huggingface.co/ausboss/Qwen-Image-2.1-Outfit-Swap-Consistency-LoRA) | 2026-10-04 | 换装·一致性｜对参考换装进行局部一致性训练，减少原图主体和背景漂移。 | —（不涉及具体画风） | ausboss | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-15) |
+| [CVA-11 Where Anima style LoRAs keep their realism: …](https://civitai.com/articles/36233) | 2026-10-07 | Anima·风格 LoRA·层权重｜作者对单个混合来源 LoRA 做分块实验，报告写实倾向与风格损失的权衡… | 风格待确认（例图未核） | ducktopuss | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-11) |
+| [CV-13 Anima style: Habeli](https://civitai.com/models/2949844?modelVersionId=3340766) | 2026-09-20 | Anima·线稿与上色·LoRA｜作者介绍平色与赛璐璐风格 LoRA，并给出基座、建议设置及示例所用模型。 | 平色·赛璐璐｜本例大眼、简化鼻口、粗轮廓与块面阴影 | Habeli | [公开 API 模型卡及指定版本元数据；查看一张公开例图](notes/history/civitai.md#cv-13) |
+| [CV-14 Krea 2 Geometric Composition Style Slider Kr…](https://civitai.com/models/2927993?modelVersionId=3313473) | 2026-09-10 | Krea 2·构图·风格滑块｜概念验证滑块在写实摄影与几何构成两个方向调节，作者提示可能不稳定。 | 摄影→几何构成｜本例由柔焦转硬边块面、五官简化 | baizuobusi | [公开 API 模型卡及指定版本元数据；查看一张公开例图](notes/history/civitai.md#cv-14) |
+| [R15 A simple character-sheet workflow in ComfyUI…](https://www.reddit.com/user/Sea-Advantage-4063/comments/1wexhhp/a_simple_charactersheet_workflow_in_comfyui_using/) | 2026-09-13 | 人物参考·多视图·LoRA数据｜用全身与面部裁切组合参考并拼接多角度。 | 风格待确认（例图未核） | Sea-Advantage-4063 | [正文及提示词](notes/history/reddit.md#r15) |
+| [OF-13 Anima 与 Illustrious 漫画分镜工作流](https://note.com/nobinlog/n/n7b306e23e9a1) | 2026-10-09 | 漫画分镜·自动化工作流｜分享三格和四格文字生图分格工作流，10 月 12 日修正模型对应和节点… | —（不涉及具体画风） | nobin | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-13) |
 
-首次实际检索后以真实结果更新本页、[总索引](../../每日检索可速查总结.md)及[项目首页](../../README.md)中的初始状态说明。
+## 全部分享速查
+
+条目详情保留原始日期、精确版本和参数、适用方向、美术风格依据及信息缺口；没有配方或例图的部分如实标注。
+
+### 百度贴吧（指定两吧）（0条）
+
+[缺口与候选](notes/history/tieba.md)：指定两吧持续403，未取得合格原帖。
+
+### bilibili（17条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [BV1VKe46XEsP 【ComfyUI】Anima提示词扩写 TIPO v2.1｜使用详解&本地安装教程](https://www.bilibili.com/video/BV1VKe46XEsP/) | 2026-09-19 | Anima提示词·自动化｜API简介给出TIPO示例工作流、模型发布页与节点。 | —（不涉及具体画风） | Zove-try | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1vke46xesp) |
+| [BV1s1HL6VE8Q 【ComfyUI】PixAI 反推 + Anima 提示词直出｜保姆级本地部署 6G显存…](https://www.bilibili.com/video/BV1s1HL6VE8Q/) | 2026-10-04 | 图像反推·自动化｜简介列出 PixAI 标签器、TIPO、节点和工作流链接；6G为视频标… | —（不涉及具体画风） | Zove-try | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1s1hl6ve8q) |
+| [BV11SNq6wEvP Anima机位控制](https://www.bilibili.com/video/BV11SNq6wEvP/) | 2026-07-15 | 构图·镜头控制｜简介称可视化控件输出方位提示词，并可替换；作者提醒部分提示词未严格测试。 | —（不涉及具体画风） | 灰暗x | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv11snq6wevp) |
+| [BV18UNT6HErn 【绘画创作技术2期01】ai漫画全流程讲解｜ComfyUI｜Anima｜ZIT｜VNCC…](https://www.bilibili.com/video/BV18UNT6HErn/) | 2026-07-12 | 漫画·工作流｜标题列出多模型漫画流程；具体步骤须看视频确认。 | —（不涉及具体画风） | Author王异 | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv18unt6hern) |
+| [BV1n9MM6mE29 零基础二次元AI生图教程，八分钟教你复现各种常见画风novelai&anima](https://www.bilibili.com/video/BV1n9MM6mE29/) | 2026-07-05 | 画风·新手｜标题称介绍常见画风，具体方法和例图待查。 | 待确认｜例图未核，人物与画风特征待确认。 | 某单机游戏爱好者 | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1n9mm6me29) |
+| [BV11Eb26mEo9 【Anima】究极全家桶！底模选择，工作流，lora管理，画师推荐，提示词模板，一个视频…](https://www.bilibili.com/video/BV11Eb26mEo9/) | 2026-08-16 | 模型选择·提示词｜标题列出底模、LoRA管理和提示词模板，具体内容待看。 | —（不涉及具体画风） | 是古手梨花sama | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv11eb26meo9) |
+| [BV1H3gp68E3R Anima构图固化的原生解决办法](https://www.bilibili.com/video/BV1H3gp68E3R/) | 2026-08-13 | 构图·提示词｜标题称介绍构图固化解决办法，具体机制与效果待看。 | —（不涉及具体画风） | 微兔耳 | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1h3gp68e3r) |
+| [BV1hF4X6MEqt 【ComfyUI】Anima 2.9B、3.8B 实测｜对比官方Base v1 参数大就…](https://www.bilibili.com/video/BV1hF4X6MEqt/) | 2026-08-30 | 模型对比｜标题称对比多个版本；评测结论与控制变量未读。 | —（不涉及具体画风） | Zove-try | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1hf4x6meqt) |
+| [BV1kReD6TEVb 【Anima绘画角色鉴赏+提示词分享】Vol.2——Deepseek大肥鱼](https://www.bilibili.com/video/BV1kReD6TEVb/) | 2026-09-19 | 人物·采样精修｜简介列出一阶段1024×1536采样及二阶段boost LoRA、层重… | —（不涉及具体画风） | kokubun | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1kred6tevb) |
+| [BV1nSY76BEuu 【ComfyUI】Anima Yume v1.5 实测／概念理解能力提升 对比实测](https://www.bilibili.com/video/BV1nSY76BEuu/) | 2026-09-11 | 模型对比·兼容｜简介称ComfyUI低于0.33.1需插件，具体对比及适用条件待核。 | —（不涉及具体画风） | Zove-try | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1nsy76beuu) |
+| [BV1oZap6CE8m 或许是目前最好的 Anima 2.9B 微调：SilvermoonMix-Anima-E…](https://www.bilibili.com/video/BV1oZap6CE8m/) | 2026-09-30 | 模型·微调｜当前简介列出模型用法与两组推荐采样参数。 | 待确认｜例图未核，人物与画风特征待确认。 | 纯银碎月 | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1ozap6ce8m) |
+| [BV1fKpB6wEx4 【ComfyUI】Anima-Light-Lavender 实测｜JSON 格式提示词 …](https://www.bilibili.com/video/BV1fKpB6wEx4/) | 2026-10-13 | 长提示词·模型｜简介提供模型页与对比工作流；具体测试及结论未读。 | 待确认｜例图未核，人物与画风特征待确认。 | Zove-try | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1fkpb6wex4) |
+| [BV18Xp86ZEH1 Qwen Image 2.1神器大更新，支持多人控制，分类属性控制，组合控制等，新增多种…](https://www.bilibili.com/video/BV18Xp86ZEH1/) | 2026-10-10 | 多人·结构控制｜简介链接多角度节点仓库并说明需要triposplat；评论区工作流未核。 | —（不涉及具体画风） | T8star-Aix | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv18xp86zeh1) |
+| [BV1gGHv6BE38 私模训练！人人都能有自己的贞贞！Qwen Image 2.1一致性及图像编辑零基础训练教程](https://www.bilibili.com/video/BV1gGHv6BE38/) | 2026-10-03 | 人物一致性·图像编辑｜简介列出训练器与相关工作流，训练方法、数据与条件须看视频。 | —（不涉及具体画风） | T8star-Aix | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1gghv6be38) |
+| [BV1YDeB6HEg8 「anima-犹格索托斯的庭院 四小只Lora AI绘画模型分享」](https://www.bilibili.com/video/BV1YDeB6HEg8/) | 2026-09-20 | 角色·LoRA｜标题介绍角色LoRA，具体角色及下载条件待查。 | 待确认｜例图未核，人物与画风特征待确认。 | 飞晔Faye | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1ydeb6heg8) |
+| [BV1pKN96iEso 超强一致性，无需反复抽卡！AI短剧工作流无保留分享](https://www.bilibili.com/video/BV1pKN96iEso/) | 2026-07-14 | 人物一致性·场景｜简介称分享人物和场景一致性的短剧流程并提供文档，效果属于作者表述。 | —（不涉及具体画风） | Xuan_酱 | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv1pkn96ieso) |
+| [BV14Cuj6nE5T anima画风分享！好看的画风分享！［补档］](https://www.bilibili.com/video/BV14Cuj6nE5T/) | 2026-08-09 | 画风·参考｜简介列网盘，具体画风和资源待看。 | 待确认｜例图未核，人物与画风特征待确认。 | Dizzy_Cattle | [B站公开API：标题、UP主、pubdate和视频简介；未…](notes/history/bilibili.md#bv14cuj6ne5t) |
+
+### Reddit（13条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [R02 ComfyUI-ZFRNodes v1.1.1 — added a LoRA datas…](https://www.reddit.com/r/comfyui/comments/1w3lscu/comfyuizfrnodes_v111_added_a_lora_dataset/) | 2026-09-01 | LoRA训练·批量标注·局部修图｜用文件夹输入生成训练集及批量图像标注。 | —（不涉及具体画风） | Single_Land8080 | [正文与两条相关评论](notes/history/reddit.md#r02) |
+| [R03 Beginner ComfyUI tutorials I made while lear…](https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/) | 2026-09-30 | 工作流入门·姿态控制·采样比较｜用带注释的工作流学习节点、姿态与采样。 | —（不涉及具体画风） | aarsla | [正文及部分评论](notes/history/reddit.md#r03) |
+| [R04 FluxKleinAllInOne Workflow](https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/) | 2026-10-07 | 多参考·局部修图·扩图｜集成参考编辑、局部重绘和扩图。 | —（不涉及具体画风） | 755136 | [正文；未读取外部工作流](notes/history/reddit.md#r04) |
+| [R05 I built an all-in-one ComfyUI workflow for s…](https://www.reddit.com/r/comfyui/comments/1x0pvae/i_built_an_allinone_comfyui_workflow_for_short_ai/) | 2026-10-08 | 多主体·场景一致性·人物参考｜角色表、全景场景和多角色组合串联。 | —（不涉及具体画风） | EzkaProductions | [正文及关于付费和布局限制的评论](notes/history/reddit.md#r05) |
+| [R06 50 Free ComfyUI Automation Workflows (Ep38)](https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/) | 2026-10-13 | 批量处理·提示词·LoRA标注｜覆盖文件夹处理、提示组合与自动标注。 | —（不涉及具体画风） | pixaromadesign | [帖子正文及少量评论](notes/history/reddit.md#r06) |
+| [R08 HERE IS A BAD EXAMPLE NOW LET ME HORRIBLY EX…](https://www.reddit.com/r/comfyui/comments/1x9gwv8/here_is_a_bad_example_now_let_me_horribly_explain/) | 2026-10-19 | 人物材质·3D纹理·局部精修｜在保持 UV 布局的前提下分部件重做材质。 | —（不涉及具体画风） | o0ANARKY0o | [正文和评论中的媒体占位](notes/history/reddit.md#r08) |
+| [R09 my MOSS-Image workflow is doing well on civi…](https://www.reddit.com/r/comfyui/comments/1xawcnv/my_mossimage_workflow_is_doing_well_on_civitai_so/) | 2026-10-21 | 构图控制·文字编辑·放大｜MOSS 图像生成工作流提供框选布局与放大。 | —（不涉及具体画风） | AuzBoss | [帖子正文](notes/history/reddit.md#r09) |
+| [R11 Krea2-realism-V2 is finally here!](https://www.reddit.com/r/StableDiffusion/comments/1ulonm8/) | 2026-07-03 | 人物表情·自然语言·LoRA搭配｜作者建议自然语言描述场景并搭配角色 LoRA。 | 风格待确认（例图未核） | rynaleopard | [正文及部分评论](notes/history/reddit.md#r11) |
+| [R13 Made a small ComfyUI browser extension to sw…](https://www.reddit.com/r/comfyui/comments/1vtcg3d/) | 2026-08-20 | 工作流自动化·图像编辑｜从网页图像启动本地 ComfyUI 工作流。 | —（不涉及具体画风） | CreepyInpu | [正文](notes/history/reddit.md#r13) |
+| [R14 If you are going to re-edit with Qwen Image …](https://www.reddit.com/r/comfyui/comments/1wlpwcw/) | 2026-09-21 | 连续编辑·采样种子｜连续编辑时关注固定种子可能造成的伪影。 | —（不涉及具体画风） | Gremlation | [正文及部分讨论](notes/history/reddit.md#r14) |
+| [R15 A simple character-sheet workflow in ComfyUI…](https://www.reddit.com/user/Sea-Advantage-4063/comments/1wexhhp/a_simple_charactersheet_workflow_in_comfyui_using/) | 2026-09-13 | 人物参考·多视图·LoRA数据｜用全身与面部裁切组合参考并拼接多角度。 | 风格待确认（例图未核） | Sea-Advantage-4063 | [正文及提示词](notes/history/reddit.md#r15) |
+| [R16 H3 character LoRA: What I learn from trainin…](https://www.reddit.com/r/StableDiffusion/comments/1wbd17p/) | 2026-09-09 | 角色LoRA·训练经验｜记录训练失败经验及模型模式差异。 | —（不涉及具体画风） | Tiny-Highlight-9180 | [正文及部分评论](notes/history/reddit.md#r16) |
+| [R17 Recent update has completely borked some old…](https://www.reddit.com/r/comfyui/comments/1w4ao8f/) | 2026-09-01 | 工作流兼容·节点排错｜记录图像比较节点导致的界面异常及上游 issue。 | —（不涉及具体画风） | Implausibilibuddy | [正文及节点作者评论](notes/history/reddit.md#r17) |
+
+### Hugging Face（23条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [HF-01 Sun-Direction-Lora-Flux2Klein9B v1](https://huggingface.co/eric-venti-seeds/Sun-Direction-Lora-Flux2Klein9B) | 2026-06-30 | 光照控制·FLUX.2｜以参考球改变室外太阳方向；作者建议先去除原有强光方向。 | —（不涉及具体画风） | eric-venti-seeds | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-01) |
+| [HF-02 Qwen-Image-Flash 4-step](https://huggingface.co/nvidia/Qwen-Image-Flash) | 2026-07-02 | 蒸馏·快速采样｜Qwen-Image 的 DMD2 蒸馏四步文生图。 | —（不涉及具体画风） | nvidia | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-02) |
+| [HF-03 Anima-Lightning step-400 更新](https://huggingface.co/aina-tech/Anima-Lightning) | 2026-10-02 | 蒸馏·Anima｜实质替换早期蒸馏模型与采样方案，需使用作者自定义 transforme… | 动漫插画｜作者称 anime 和 illustration；例图未核，人物造型… | aina-tech | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-03) |
+| [HF-04 Anima-2.9B preview v1](https://huggingface.co/Gazingstars123/Anima-2.9B) | 2026-08-12 | 动漫插画·结构扩展｜Anima 扩层微调，从28层扩至40层，作者称增加约170万训练样本。 | 动漫插画｜作者称动漫及插画；例图未核，人物体型五官及光影待确认。 | Gazingstars123 | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-04) |
+| [HF-05 Anima_Kawai_Inpaint_ControlNet-LLLite 12000-…](https://huggingface.co/kawaimasa/Anima_Kawai_Inpaint_ControlNet-LLLite) | 2026-08-15 | 局部修复·Anima｜Anima Base v1.0 的轻量局部重绘控制器。 | 动漫插画｜作者称动画与插画；例图未核，人物造型待确认。 | kawaimasa | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-05) |
+| [HF-06 Anima-3.8B v1.1](https://huggingface.co/lylogummy/Anima-3.8B) | 2026-09-01 | 多主体·Anima·提示词｜扩展到52层并引入 Semantic Connector，作者面向人物… | 动漫插画｜作者称 Anima visual style；例图未核，人物造型待确… | lylogummy | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-06) |
+| [HF-07 AniSee V2 Base/Aesthetic/Turbo](https://huggingface.co/SeeSee21/AniSee) | 2026-09-06 | 动漫插画·Anima·后训练｜旧仓库新发布V2三款权重；作者说明为单个 LoKr 合并，区别于 V1… | 动漫插画｜作者称更干净的动漫风；例图未核，人物造型及色彩光影待确认。 | SeeSee21 | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-07) |
+| [HF-08 Qwen-Image-2.1 0919 checkpoint](https://huggingface.co/Qwen/Qwen-Image-2.1) | 2026-09-19 | 图像生成·编辑｜官方图像生成与编辑模型；9月19日提交实质替换权重并修正 VAE 空间… | —（不涉及具体画风） | Qwen | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-08) |
+| [HF-09 Anima-Light-Lavender BF16/MXFP8](https://huggingface.co/Johnny-Z/Anima-Light-Lavender) | 2026-09-18 | 动漫插画·自然语言｜基于 Anima Base v1.0 后训练，关注长自然语言和结构化描… | 动漫插画｜作者称 Anima 插画；例图未核，人物造型待确认。 | Johnny-Z | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-09) |
+| [HF-10 Qwen-Image-2.1-Natural-Exposure-LoRA 4000-st…](https://huggingface.co/prithivMLmods/Qwen-Image-2.1-Natural-Exposure-LoRA) | 2026-09-23 | 曝光调整·图像编辑｜针对 Qwen Image 2.1 的输入图曝光与色彩调整适配器。 | —（不涉及具体画风） | prithivMLmods | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-10) |
+| [HF-11 Qwen-Image-2.1-Fun-Controlnet-Union Union](https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union) | 2026-09-24 | 结构控制·局部重绘｜一个控制分支支持边缘、深度、灰度、HED、线稿、MLSD、姿态、涂鸦及… | —（不涉及具体画风） | alibaba-pai | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-11) |
+| [HF-12 texture-fix-vae-for-qwen-image-2.1 BF16](https://huggingface.co/madebyollin/texture-fix-vae-for-qwen-image-2.1) | 2026-09-25 | VAE·纹理修复｜针对 Qwen Image 2.1 VAE 的纹理棋盘格和 fp16 … | —（不涉及具体画风） | madebyollin | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-12) |
+| [HF-13 Qwen-Image-2.1-Outpaint-LoRA v1 step1500](https://huggingface.co/ausboss/Qwen-Image-2.1-Outpaint-LoRA) | 2026-09-26 | 扩图·图像编辑｜用灰色填充画布与编辑指令扩展场景，作者工作流在末尾贴回原图。 | —（不涉及具体画风） | ausboss | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-13) |
+| [HF-14 Qwen-Image-2.1-Consistency-LoRA v1](https://huggingface.co/ausboss/Qwen-Image-2.1-Consistency-LoRA) | 2026-09-28 | 图像编辑·一致性｜降低图像编辑时非目标区域变化与构图漂移；作者也提供不加载 LoRA 的… | —（不涉及具体画风） | ausboss | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-14) |
+| [HF-15 Qwen-Image-2.1-Outfit-Swap-Consistency-LoRA …](https://huggingface.co/ausboss/Qwen-Image-2.1-Outfit-Swap-Consistency-LoRA) | 2026-10-04 | 换装·一致性｜对参考换装进行局部一致性训练，减少原图主体和背景漂移。 | —（不涉及具体画风） | ausboss | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-15) |
+| [HF-16 Qwen-Image-2.1-Restore-LoRA LoRA](https://huggingface.co/ausboss/Qwen-Image-2.1-Restore-LoRA) | 2026-10-07 | 图像修复·放大｜作者为降低放大时额外锐化和漂移训练的修复适配器。 | —（不涉及具体画风） | ausboss | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-16) |
+| [HF-17 Qwen-Image-2.1-Turbo Turbo](https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo) | 2026-10-09 | 图像生成·快速采样｜官方2.1加速权重，支持生成和图像编辑。 | —（不涉及具体画风） | Qwen | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-17) |
+| [HF-18 Qwen-Image-2.1-Anime-Fusal FUSAL 原始 Base 系列](https://huggingface.co/MicksHF/Qwen-Image-2.1-Anime-Fusal) | 2026-10-09 | 动漫插画·Qwen·LoRA｜作者的动漫领域适配及结构化提示格式，包含文生图与参考图任务。 | 动漫插画｜作者称宽分布动漫插画；例图未核，人物比例五官与材质待确认。 | MicksHF | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-18) |
+| [HF-19 Anima_ControlNet-LLLite regional 4335](https://huggingface.co/toyxyz/Anima_ControlNet-LLLite) | 2026-10-11 | 多主体·区域控制｜RGB 实例颜色图控制角色区域，颜色不固定对应语义类别，黑色表示未分配。 | —（不涉及具体画风） | toyxyz | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-19) |
+| [HF-20 Anima_ControlNet-LLLite 3dpose 6200](https://huggingface.co/toyxyz/Anima_ControlNet-LLLite) | 2026-10-12 | 姿态控制·多主体｜使用阴影化 RGB 三维网格作为姿态输入，作者给出与区域控制联用实例。 | —（不涉及具体画风） | toyxyz | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-20) |
+| [HF-21 FLUX-3-Image-Klein-Outpaint-LoRA v1.0 step10…](https://huggingface.co/ausboss/FLUX-3-Image-Klein-Outpaint-LoRA) | 2026-10-16 | 扩图·FLUX.3｜在灰色扩边上填充场景并配合工作流贴回原图。 | —（不涉及具体画风） | ausboss | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-21) |
+| [HF-22 Moss-image-anime-lora 1500/2000-step](https://huggingface.co/axiomofmind/Moss-image-anime-lora) | 2026-10-20 | 动漫插画·MOSS｜MOSS 图像基座的青年向动画风 LoRA，提供两种训练步数和 Com… | 动漫插画｜作者称青年向动漫、戏剧照明与动态构图；例图未核，人物体型五官待确认。 | axiomofmind | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-22) |
+| [HF-23 anima-ref-adapter v2 r64](https://huggingface.co/ElectronGirl/anima-ref-adapter) | 2026-10-29 | 参考图·Anima｜在 Anima 工作流中加入参考图适配器及双人物支持，作者提供单节点工… | 动漫插画｜作者以 Anima 动漫角色示范；例图未核，人物体型五官待确认。 | ElectronGirl | [模型卡正文、公开提交历史（选段）](notes/history/huggingface.md#hf-23) |
+
+### GitHub（17条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [GH-01 Anima Artist Mixer：post-adapter 混合与锚点](https://github.com/An1X3R/Anima-Artist-Mixer/commit/8e6c780cb1fd2cb3532efaa623ad5ae510b5a2d5) | 2026-07-27 | 画师混合·Anima｜26.8.1 已加入 post-LLMAdapter 多画师混合；26… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | An1X3R | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-01) |
+| [GH-02 Artist Mixer Forge：画师对照与诊断工作流](https://github.com/Rinne414/Anima-Artist-Mixer-Forge/commit/4bae5f5a95937bc32c4f07746f0e7a75cebcb90d) | 2026-07-17 | 画师混合·风格分析｜原项目的社区 fork 增加建议组合、画师相似性和对照图诊断；可对比单… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | Rinne414 | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-02) |
+| [GH-03 Anima Regional 0.3.3：人物与场景分区](https://github.com/An1X3R/ComfyUI-Anima-Regional/commit/bcaae88b2053ab470794c35ffd4ebfd08ff45561) | 2026-07-31 | 多主体·Anima·区域控制｜分别组织角色条件与空间归属，0.3.3 加入可选 shared_del… | —（不涉及具体画风） | An1X3R | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-03) |
+| [GH-04 Krea 2 单次采样区域提示与分区 LoRA](https://github.com/januspluto/ComfyUI-Krea2-Regional/commit/23f937b07e37920e6eec34482ddc6fe7a26aef2a) | 2026-07-08 | 多主体·区域 LoRA·Krea 2｜基于联合注意力掩码把不同提示词和 LoRA 路由到不同区域，使用共享底… | —（不涉及具体画风） | januspluto | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-04) |
+| [GH-05 Krea 2 Control LoRA 与结构图](https://github.com/facok/comfyui-krea2-controlnet/commit/5e10d80c018856c3991275714b32e63ba495ffbc) | 2026-07-04 | 结构控制·Control LoRA·Krea 2｜加载 Krea 2 Control LoRA，将由 VAE 编码的控制… | —（不涉及具体画风） | facok | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-05) |
+| [GH-06 FLUX.2 ControlNet：组合与图像控制](https://github.com/Damkohler/JLC-Flux2-ControlNet/commit/406e850c29f0db16d721837add26b284c899a433) | 2026-07-07 | 结构控制·FLUX.2｜FLUX.2 原生节点实现并提供多 ControlNet 组合；随后 … | —（不涉及具体画风） | Damkohler | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-06) |
+| [GH-07 Krea2 StyleBridge：内容提示和参考画风分离](https://github.com/sakugetu/comfyui-krea2-stylebridge-lmstudio/commit/23470d5f93c5130242bd9a328c11c8db9e7eed80) | 2026-07-05 | 风格参考·提示词自动化·Krea 2｜示范用 LM Studio 组织文字及内容参考，再通过 Untwist… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | sakugetu | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-07) |
+| [GH-08 Clio 风格词库与同主体画廊对照](https://github.com/lumenastrum/clio-style-preview/commit/41b6baf6bb226c4bf4f8e06da11e2c490a50c8dd) | 2026-07-20 | 画风分析·提示词·Krea 2｜首版提供 281 个长篇风格描述及同一主体的画廊、滑块对照，便于浏览和… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | lumenastrum | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-08) |
+| [GH-09 Krea2 Prompt Styler：风格与摄影参数](https://github.com/Gothdir/ComfyUI-Krea2-PromptStyler/commit/5c83169cdd3316a8a77116deea6d876f0d40eeaa) | 2026-07-24 | 提示词组织·摄影风格·Krea 2｜为 Krea 2／Flux 提供按类别选择的风格和焦距、光圈、镜头、胶… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | Gothdir | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-09) |
+| [GH-10 HiDream-O1 双 ControlNet 细节工作流](https://github.com/biosynthart/comfyui-HiDream-O1-Detailer/commit/77f2aafb94b8a10737d209513bfbaf42288e23ac) | 2026-07-06 | 采样精修·结构控制｜作者公开从 HiDream-O1 图像转至 Z-Image Turbo… | 风格参考｜作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材… | biosynthart | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-10) |
+| [GH-11 MiniMax H3 Image Studio 静帧工作流](https://github.com/astropuzzo/ComfyUI-MiniMax-H3-Image-Studio/commit/6312094f3ef6ba5688a5f979a9f6d80011f93207) | 2026-08-03 | 图像生成·参考编辑·MiniMax H3｜针对 H3 静帧生成和参考图编辑组织条件、采样、分辨率及帧评分，附面向… | —（不涉及具体画风） | astropuzzo | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-11) |
+| [GH-12 Anima Remap：跨 28／40／52 层 LoRA 和模型合并](https://github.com/shin131002/ComfyUI-Anima-Remap/commit/a5d7b07aba96cdaaca7f3179d465548f3e8e9401) | 2026-08-24 | Anima·LoRA 兼容·模型合并｜按模型层索引重映射在不同 Anima 代际之间应用 LoRA 和合并模… | —（不涉及具体画风） | shin131002 | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-12) |
+| [GH-13 Anima LoRA 与 ControlNet 跨层数映射](https://github.com/INuBq8/ComfyUI-Anima-LoRA-ControlNet-Patch/commit/db28dfbd8e37a1f954611e44245791f4501bb785) | 2026-09-09 | Anima·ControlNet·LoRA 兼容｜统一处理 Anima 28、40、52 层模型间双向 LoRA 与 C… | —（不涉及具体画风） | INuBq8 | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-13) |
+| [GH-14 Visual Grid Regional Prompt 区域构图文本](https://github.com/bada-ya/ComfyUI-Visual-Regional-Prompt/commit/9e3f89f078a399a31e55e92aedb18117d6039d65) | 2026-09-01 | 构图·多主体·提示词组织｜通过网格框选区域并逐区填写描述，输出自然语言、结构化标签或 JSON … | —（不涉及具体画风） | bada-ya | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-14) |
+| [GH-15 Qwen Image 2.1 提示词改写节点](https://github.com/benjiyaya/ComfyUI-Qwen-Image-2.1-Prompt-Enhancer/commit/947468034a2b43d0a54321d31178dd058c68ecaa) | 2026-09-21 | 提示词自动化·图像编辑·Qwen｜作者提供 Qwen Image 2.1 的文生图与图像编辑提示词改写节… | —（不涉及具体画风） | benjiyaya | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-15) |
+| [GH-16 Qwen Image 2.1 Fun Union 多种结构控制](https://github.com/T8mars/Comfyui-Qwen-Image-2.1-Fun-Controlnet-Union-T8/commit/cdd06a42d51afeeff9448335dcca1a5e5827df5e) | 2026-09-25 | 结构控制·ControlNet·Qwen｜发布 Qwen Image 2.1 Union 节点与工作流，覆盖边缘… | —（不涉及具体画风） | T8mars | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-16) |
+| [GH-17 LuCiD VRP 可视化编辑与区域布局](https://github.com/EBEBEEBE/comfyui-lucid-vrp/commit/5c4e9f351a7e686b17325aa39bdc6fd7b58a5103) | 2026-10-29 | 区域控制·图像编辑·多主体｜公开 beta 源码，提供画布编辑、Anima 区域提示和 MOSS-… | —（不涉及具体画风） | EBEBEEBE | [仓库历史 README 及提交列表；部分条目参考当前 RE…](notes/history/github.md#gh-17) |
+
+### Civitai 模型与版本（21条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [CV-01 Anima Text to Image ［ControlNet (3D Pose, Re…](https://civitai.com/models/2742675?modelVersionId=3084634) | 2026-06-30 | Anima·工作流·画师混合｜初版工作流；该资源后续扩展到区域提示与姿态控制。 | —（不涉及具体画风） | Marui_Melons | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-01) |
+| [CV-02 Anima Text to Image ［ControlNet (3D Pose, Re…](https://civitai.com/models/2742675?modelVersionId=3428980) | 2026-10-25 | Anima·区域控制·工作流｜v1.3 增加 LoRA 高低噪声分段、split condition… | —（不涉及具体画风） | Marui_Melons | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-02) |
+| [CV-03 Anima Style Explorer & Prompt Workflow ／ Sty…](https://civitai.com/models/2640250?modelVersionId=3106443) | 2026-07-07 | Anima·提示词·画师混合｜风格探索及自动画师提示工作流；页面当前说明模板和节点更新。该版本接口基… | —（不涉及具体画风） | airi_mizuki17 | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-03) |
+| [CV-04 Expression Sheet - Turn Your OC Into an Emot…](https://civitai.com/models/2748901?modelVersionId=3092279) | 2026-07-03 | Illustrious·表情·角色设定｜作者分享同一角色多表情参考表的概念 LoRA；建议先描述角色并简化设计。 | 动漫表情表｜作者称可输出彩色表情表或黑白线稿；例图未核，体型五官与姿态待确认。 | Booyaka | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-04) |
+| [CV-05 Anima style: d3u1](https://civitai.com/models/2721188?modelVersionId=3058066) | 2026-07-03 | Anima·画师风格·精修｜作者以 Anima base v1.0 训练，附样图使用参数。 | 画师风格｜作者未充分文字描述外观；例图未核，人物及线条上色待确认。 | N0VA39 | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-05) |
+| [CV-06 ［Anima & ILL］ Machi/马吉- Artist Style](https://civitai.com/models/2474368?modelVersionId=3134456) | 2026-07-16 | Anima·画师风格·LoRA｜Machi 风格适配器的 Anima 版，作者给出权重范围。 | 画师风格｜作者仅指向画师风格；例图未核，人物体型、五官、线条及色彩未知。 | flyx3 | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-06) |
+| [CV-07 (Anima Style) Front Lighting (face focus) / …](https://civitai.com/models/2771660?modelVersionId=3120651) | 2026-07-12 | Anima·人物光照·LoRA｜脸部正面补光 LoRA；作者提示较高权重可能改变纹理。 | —（不涉及具体画风） | Akiseki | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-07) |
+| [CV-08 shitty watercolor style](https://civitai.com/models/1030872?modelVersionId=3112712) | 2026-07-16 | Krea 2·水彩·LoRA｜水彩风格模型的 Krea 2 版，附该版本示范参数。 | 水彩｜依作者命名为水彩风格；例图未核，体型五官、笔触与色彩未知。 | Yofaraway | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-08) |
+| [CV-09 Workflow for your "ART"](https://civitai.com/models/2730327?modelVersionId=3265977) | 2026-08-26 | Krea 2·工作流·构图控制｜V4 添加 ControlNet 和 moodboard，作者称提升速… | —（不涉及具体画风） | mr1morcellini | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-09) |
+| [CV-10 Workflow for your "ART"](https://civitai.com/models/2730327?modelVersionId=3369637) | 2026-09-30 | Qwen 2.1·工作流·图像编辑｜V2.7 与 V2.5 为 Qwen 工作流分支；作者称 V2.7 较… | —（不涉及具体画风） | mr1morcellini | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-10) |
+| [CV-11 Artist Style: Yoneyama Mai/米山舞](https://civitai.com/models/330218?modelVersionId=3225992) | 2026-08-14 | Anima·画师风格·LoRA｜作者的多基座画师风格 LoRA 中的 Anima 1.0 版本。 | 画师风格｜模型卡未具体描述视觉；例图未核，人物及媒介特征未知。 | silvermoong | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-11) |
+| [CV-12 Artist Style: Rei_17/老累/sanbonzakura](https://civitai.com/models/538535?modelVersionId=3240697) | 2026-08-18 | Anima·画师风格·LoRA｜作者的多基座风格 LoRA 中的 Anima 1.0 版本；页面说明其… | 画师风格｜模型卡未具体描述视觉；例图未核，人物及媒介特征未知。 | silvermoong | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-12) |
+| [CV-13 Anima style: Habeli](https://civitai.com/models/2949844?modelVersionId=3340766) | 2026-09-20 | Anima·线稿与上色·LoRA｜作者介绍平色与赛璐璐风格 LoRA，并给出基座、建议设置及示例所用模型。 | 平色·赛璐璐｜本例大眼、简化鼻口、粗轮廓与块面阴影 | Habeli | [公开 API 模型卡及指定版本元数据；查看一张公开例图](notes/history/civitai.md#cv-13) |
+| [CV-14 Krea 2 Geometric Composition Style Slider Kr…](https://civitai.com/models/2927993?modelVersionId=3313473) | 2026-09-10 | Krea 2·构图·风格滑块｜概念验证滑块在写实摄影与几何构成两个方向调节，作者提示可能不稳定。 | 摄影→几何构成｜本例由柔焦转硬边块面、五官简化 | baizuobusi | [公开 API 模型卡及指定版本元数据；查看一张公开例图](notes/history/civitai.md#cv-14) |
+| [CV-15 Krea 2 Tilted Composition Control Slider Kre…](https://civitai.com/models/2930423?modelVersionId=3316511) | 2026-09-11 | Krea 2·构图·滑块｜作者通过正负权重在倾斜构图和规整构图之间调整。 | —（不涉及具体画风） | baizuobusi | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-15) |
+| [CV-16 Expression Slider ／ KREA 2 ［Zero-Train］](https://civitai.com/models/2956697?modelVersionId=3349249) | 2026-09-29 | Krea 2·人物表情·滑块｜作者以闭式求解制作表情强度滑块，提醒较高权重可能损害面部对称。 | —（不涉及具体画风） | Ai_Art_Vision | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-16) |
+| [CV-17 V67 Artist Style](https://civitai.com/models/2969806?modelVersionId=3365286) | 2026-09-28 | Krea 2·画风·提示词｜作者分享绘画风格 LoRA 和可组合的风格提示方向。 | 油画·超现实｜据作者提示词描述，含厚涂笔触、画布质感和戏剧明暗；例图未核，人物比例… | angelomaiota | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-17) |
+| [CV-18 Aesthetic composition ／ 美学构图](https://civitai.com/models/2972997?modelVersionId=3428286) | 2026-10-25 | Anima·构图·光影｜作者称 v1 对比 v0.8 改进细节与色调平衡，强调训练结果不一定全… | —（不涉及具体画风） | aiseaK | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-18) |
+| [CV-19 构图自控 ／ Composition Self-Control - 生图设计 ／ Raw…](https://civitai.com/models/2985382?modelVersionId=3406510) | 2026-10-15 | Anima·构图·LoRA 搭配｜V1 以主次构图词引导设计；作者提醒混合构图会冲突，搭配风格 LoRA… | —（不涉及具体画风） | aiseaK | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-19) |
+| [CV-20 Anima-style-梦幻柔光（nai5其五）](https://civitai.com/models/3006622?modelVersionId=3411401) | 2026-10-17 | Anima·画风·LoRA 搭配｜作者分享柔光风格 LoRA 单用和多 LoRA 组合的不同提示策略。 | 柔光·日式插画｜作者描述梦幻光影、清新人物线条及柔和粉彩；例图未核，体型五官及表情未… | hardworkingsaltedfish | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-20) |
+| [CV-21 Portrait2CharRef,头像转角色卡-Qwen Image 2.1](https://civitai.com/models/2954346?modelVersionId=3346353) | 2026-09-21 | Qwen 图像编辑·角色设定·工作流｜作者分享从单张头像编辑生成多视角角色设定图的提示词；可附服装参考图。 | —（不涉及具体画风） | b675051045971 | [公开 API 模型卡正文及指定版本元数据；未读取图片与工作…](notes/history/civitai.md#cv-21) |
+
+### Civitai 社区文章（15条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [CVA-01 Add Manga Reaction Symbols to ANY Character …](https://civitai.com/articles/32301) | 2026-07-06 | Illustrious·人物表情·漫画符号｜作者介绍 Emanata LoRA 的表情符号触发词，建议每图使用一种… | 风格待确认（例图未核） | Booyaka | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-01) |
+| [CVA-02 Creating an Anima LoRA & Comparison with Ill…](https://civitai.com/articles/32635) | 2026-07-15 | Anima·Illustrious·训练比较｜同一作者比较两种 LoRA 的提示跟随与构图，并说明样本差异、品质词和… | 风格待确认（例图未核） | YNET_Lab | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-02) |
+| [CVA-03 My Krea2, Ideogram4 and Klein9b training con…](https://civitai.com/articles/32226) | 2026-07-04 | Krea 2·训练配置·工作流｜作者分享 Krea 2、Ideogram 4、Klein 9B 训练配… | 风格待确认（例图未核） | AI_Characters | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-03) |
+| [CVA-04 Anima Generation Guide - Part 1 - General (M…](https://civitai.com/articles/33274) | 2026-07-31 | Anima·基座·使用经验｜Anima 系列导论讨论动漫底模发展和常见误解；技术史和评价均属于作者… | 风格待确认（例图未核） | Volnovik | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-04) |
+| [CVA-05 Anima Generation Guide - Part 2 - UI setup](https://civitai.com/articles/33315) | 2026-08-05 | Anima·Forge Neo·兼容排错｜Anima 系列第二篇介绍 Forge Neo 环境、模型和启动时检查… | 风格待确认（例图未核） | Volnovik | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-05) |
+| [CVA-06 Four Things I Got Wrong Training My First Ch…](https://civitai.com/articles/33606) | 2026-08-08 | 角色 LoRA·训练经验·数据集｜作者复盘首次角色 LoRA 的四项错误与训练经验。 | 风格待确认（例图未核） | Ainara | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-06) |
+| [CVA-07 Troubleshooting Style LoRAs](https://civitai.com/articles/33856) | 2026-08-14 | 风格 LoRA·排错·LoRA 搭配｜作者针对风格不明显、提示词混合与多个 LoRA 相互覆盖提供排查建议。 | 风格待确认（例图未核） | novuschroma | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-07) |
+| [CVA-08 Facial Expression Tags Dictionary for Illust…](https://civitai.com/articles/34888) | 2026-09-12 | Illustrious·人物表情·提示词｜表情标签词典按情绪、眼眉口、符号等分类；作者标记效果不确定词条，强调与… | 风格待确认（例图未核） | Nonichill | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-08) |
+| [CVA-09 How to Boost Image Detail in ComfyUI (for An…](https://civitai.com/articles/35089) | 2026-09-09 | Anima·Illustrious·细节优化｜文章探讨 ComfyUI 中 Anima 与 Illustrious … | 风格待确认（例图未核） | bvga | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-09) |
+| [CVA-10 How to Make a Local LLM Write Random Prompts…](https://civitai.com/articles/35626) | 2026-09-22 | ComfyUI·提示词·构图｜本地 LLM 节点与提示模板以场景和人物为约束，通过镜头、裁切和景深等… | 风格待确认（例图未核） | Hatolic | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-10) |
+| [CVA-11 Where Anima style LoRAs keep their realism: …](https://civitai.com/articles/36233) | 2026-10-07 | Anima·风格 LoRA·层权重｜作者对单个混合来源 LoRA 做分块实验，报告写实倾向与风格损失的权衡… | 风格待确认（例图未核） | ducktopuss | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-11) |
+| [CVA-12 Anima Made Easy: The Full Guide](https://civitai.com/articles/37140) | 2026-10-21 | Anima·工作流·区域提示｜作者解释工作流分组、草图与高分辨率、区域提示、修复和批处理；提供两个不… | 风格待确认（例图未核） | DXMPie | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-12) |
+| [CVA-13 Tags to Natural Language: how Booru Prompt G…](https://civitai.com/articles/37453) | 2026-10-27 | 提示词·多人物·格式转换｜作者说明将标签排序、归属人物并转成不同模型适用句式的浏览器规则，包含未… | 风格待确认（例图未核） | Mexes | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-13) |
+| [CVA-14 Regional Prompt Control in Krita](https://civitai.com/articles/37534) | 2026-10-29 | Krita·区域提示·局部重绘｜作者说明在 Krita 中用图层制作区域、绑定独立提示并调整堆叠顺序，… | 风格待确认（例图未核） | Snakehands | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-14) |
+| [CVA-15 7 Dataset Mistakes That Quietly Ruin Your Lo…](https://civitai.com/articles/37569) | 2026-10-29 | LoRA 训练·数据集·排错｜作者列出重复图、背景偏置、标签不一致与步数估计等数据问题，并介绍其数据… | 风格待确认（例图未核） | YuriLab | [公开 API 文章正文文字；未读取附件及文章例图](notes/history/civitai_articles.md#cva-15) |
+
+### 其他作者技术分享（16条）
+
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+|---|---|---|---|---|---|
+| [OF-01 Krea2 GGUF 文生图工作流](https://note.com/ultracrab/n/n0b7bd1d842d4) | 2026-07-06 | 低显存·文生图｜改造模板使用 GGUF，并介绍不同显存与量化选择。 | —（不涉及具体画风） | 異世界♪吟遊詩人ギルド | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-01) |
+| [OF-02 Krea2 局部细节修改](https://note.com/ultracrab/n/n1126b81b2e76) | 2026-07-10 | 局部编辑·蒙版｜以蒙版与结果状态提示词修改眼睛或衣物颜色，说明边缘融合选项。 | —（不涉及具体画风） | 異世界♪吟遊詩人ギルド | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-02) |
+| [OF-03 Anima 风格提示词固定种子对照](https://note.com/ai_0049/n/n74ccab5370e0) | 2026-07-12 | 画风提示·对照实验｜作者固定种子和简单构图测试 108 个风格提示词并讨论限制。 | 风格待确认｜作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上… | おーら | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-03) |
+| [OF-04 Krea 2 Style Reference LoRA 实践](https://note.com/kongo_jun/n/ne59a443d195f) | 2026-07-14 | 参考图·画风迁移｜介绍风格参考 LoRA 与对应模型、节点和工作流。 | 风格待确认｜作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上… | 混合順 | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-04) |
+| [OF-05 带操作说明的 Anima 入门工作流](https://note.com/nobinlog/n/ndc30e42fb796) | 2026-07-15 | 入门·LoRA搭配｜说明模型组件、LoRA、随机词、高清修复与面部细化，提供带注释工作流。 | —（不涉及具体画风） | nobin | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-05) |
+| [OF-06 图像放入平板屏幕的合成工作流](https://note.com/nobinlog/n/nd7b31c77fd2a) | 2026-07-16 | 图像合成·自动布局｜以屏幕蒙版、居中计算及透明播放符号合成画面。 | —（不涉及具体画风） | nobin | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-06) |
+| [OF-07 Mage-Flow 文生图及编辑实践](https://note.com/kongo_jun/n/n8bf84765c972) | 2026-07-26 | 文生图·图像编辑｜作者分别提供普通与 turbo 的文生图、编辑工作流和个人硬件记录。 | —（不涉及具体画风） | 混合順 | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-07) |
+| [OF-08 Anima 风格 LoRA 训练时间步实验](https://note.com/kuon_noise/n/n82be977f167d) | 2026-08-16 | LoRA训练·画风｜比较时间步分布对自训风格 LoRA 的影响，并讨论过窄范围。 | 风格待确认｜作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上… | 久遠ノイズ | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-08) |
+| [OF-09 Anima 画师标签与 LoRA 组合](https://note.com/nobinlog/n/nf549664e13ac) | 2026-09-05 | 画师串·LoRA搭配｜作者讨论画师标签和 LoRA 的画风组合与选择。 | 风格待确认｜作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上… | nobin | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-09) |
+| [OF-10 ComfyUI Metadata Viewer](https://note.com/maguro696/n/ned29d8b4e09b) | 2026-09-06 | 元数据·配置对照｜作者制作浏览器工具来读取并比较 ComfyUI PNG 内的提示与参数。 | —（不涉及具体画风） | まぐろラボ | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-10) |
+| [OF-11 Anima Base v1.0 8GB 工作流](https://note.com/tsugiito_design/n/ndff49bc4cd34) | 2026-10-05 | 低显存·人物插画｜作者提供其 8GB GPU 运行 Anima 的工作流 JSON 与案… | —（不涉及具体画风） | つぎいと設計室 | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-11) |
+| [OF-12 Anima 风格 LoRA 斑块排查 #2](https://note.com/soul_alchemy/n/n4e8b898752ea) | 2026-10-09 | LoRA训练·画面瑕疵｜作者追查自训 LoRA 在衣物、沙发等平面出现阴影碎裂与条纹的原因。 | —（不涉及具体画风） | AJ | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-12) |
+| [OF-13 Anima 与 Illustrious 漫画分镜工作流](https://note.com/nobinlog/n/n7b306e23e9a1) | 2026-10-09 | 漫画分镜·自动化工作流｜分享三格和四格文字生图分格工作流，10 月 12 日修正模型对应和节点… | —（不涉及具体画风） | nobin | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-13) |
+| [OF-14 本地 LLM 给图打分并迭代提示](https://note.com/ai_sketch/n/n9a14344e3562) | 2026-10-12 | 自动化·提示词组织｜以本地 LLM 看图评分并提出下一轮提示词，作者提醒评分可能失准。 | —（不涉及具体画风） | AIスケッチ | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-14) |
+| [OF-15 Qwen Image 2.1 三种黑白线画流程](https://note.com/nobinlog/n/nf1aeb8766e81) | 2026-10-20 | 线稿·图像编辑｜作者介绍细线、大片黑色和漫画三种黑白处理方向并比较模型。 | 风格待确认｜作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上… | nobin | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-15) |
+| [OF-16 Qwen Image 2.1 多图编辑与透明输出](https://stable-diffusion-art.com/qwen-image-2-1/) | 2026-10-25 | 多图编辑·透明背景｜介绍多参考图编辑、文字生成和 RGBA 透明图输出工作流。 | —（不涉及具体画风） | Andrew | [原文可见文字段落；未读取图片、附件、视频与评论](notes/history/other_forums.md#of-16) |
+
+## 后续关注
+
+- 人物表情与角色表、画师混合、区域/姿态控制、风格词对照、LoRA排错与自动提示均有阅读入口。
+- 先保存本次已完成内容；贴吧、视频画面、附件与原配方复跑等缺口不阻塞本次归档。
+- 同日补充继续更新此目录，按原始链接和版本去重，未知信息不补造。
