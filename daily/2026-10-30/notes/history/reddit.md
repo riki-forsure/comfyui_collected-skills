@@ -10,21 +10,21 @@
 
 ## 分享速查
 
-| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格方向 | 原作者 | 详情与读取范围 |
+| 编号／原分享 | 原文／版本日期 | 适用方向（短标注） | 美术风格／设计思路 | 原作者 | 详情与读取范围 |
 |---|---|---|---|---|---|
-| [R02 ComfyUI-ZFRNodes v1.1.1 — added a LoRA datas…](https://www.reddit.com/r/comfyui/comments/1w3lscu/comfyuizfrnodes_v111_added_a_lora_dataset/) | 2026-09-01 | LoRA训练·批量标注·局部修图｜用文件夹输入生成训练集及批量图像标注。 | —（不涉及具体画风） | Single_Land8080 | [正文与两条相关评论](reddit.md#r02) |
-| [R03 Beginner ComfyUI tutorials I made while lear…](https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/) | 2026-09-30 | 工作流入门·姿态控制·采样比较｜用带注释的工作流学习节点、姿态与采样。 | —（不涉及具体画风） | aarsla | [正文及部分评论](reddit.md#r03) |
-| [R04 FluxKleinAllInOne Workflow](https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/) | 2026-10-07 | 多参考·局部修图·扩图｜集成参考编辑、局部重绘和扩图。 | —（不涉及具体画风） | 755136 | [正文；未读取外部工作流](reddit.md#r04) |
-| [R05 I built an all-in-one ComfyUI workflow for s…](https://www.reddit.com/r/comfyui/comments/1x0pvae/i_built_an_allinone_comfyui_workflow_for_short_ai/) | 2026-10-08 | 多主体·场景一致性·人物参考｜角色表、全景场景和多角色组合串联。 | —（不涉及具体画风） | EzkaProductions | [正文及关于付费和布局限制的评论](reddit.md#r05) |
-| [R06 50 Free ComfyUI Automation Workflows (Ep38)](https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/) | 2026-10-13 | 批量处理·提示词·LoRA标注｜覆盖文件夹处理、提示组合与自动标注。 | —（不涉及具体画风） | pixaromadesign | [帖子正文及少量评论](reddit.md#r06) |
-| [R08 HERE IS A BAD EXAMPLE NOW LET ME HORRIBLY EX…](https://www.reddit.com/r/comfyui/comments/1x9gwv8/here_is_a_bad_example_now_let_me_horribly_explain/) | 2026-10-19 | 人物材质·3D纹理·局部精修｜在保持 UV 布局的前提下分部件重做材质。 | —（不涉及具体画风） | o0ANARKY0o | [正文和评论中的媒体占位](reddit.md#r08) |
-| [R09 my MOSS-Image workflow is doing well on civi…](https://www.reddit.com/r/comfyui/comments/1xawcnv/my_mossimage_workflow_is_doing_well_on_civitai_so/) | 2026-10-21 | 构图控制·文字编辑·放大｜MOSS 图像生成工作流提供框选布局与放大。 | —（不涉及具体画风） | AuzBoss | [帖子正文](reddit.md#r09) |
-| [R11 Krea2-realism-V2 is finally here!](https://www.reddit.com/r/StableDiffusion/comments/1ulonm8/) | 2026-07-03 | 人物表情·自然语言·LoRA搭配｜作者建议自然语言描述场景并搭配角色 LoRA。 | 风格待确认（例图未核） | rynaleopard | [正文及部分评论](reddit.md#r11) |
-| [R13 Made a small ComfyUI browser extension to sw…](https://www.reddit.com/r/comfyui/comments/1vtcg3d/) | 2026-08-20 | 工作流自动化·图像编辑｜从网页图像启动本地 ComfyUI 工作流。 | —（不涉及具体画风） | CreepyInpu | [正文](reddit.md#r13) |
-| [R14 If you are going to re-edit with Qwen Image …](https://www.reddit.com/r/comfyui/comments/1wlpwcw/) | 2026-09-21 | 连续编辑·采样种子｜连续编辑时关注固定种子可能造成的伪影。 | —（不涉及具体画风） | Gremlation | [正文及部分讨论](reddit.md#r14) |
-| [R15 A simple character-sheet workflow in ComfyUI…](https://www.reddit.com/user/Sea-Advantage-4063/comments/1wexhhp/a_simple_charactersheet_workflow_in_comfyui_using/) | 2026-09-13 | 人物参考·多视图·LoRA数据｜用全身与面部裁切组合参考并拼接多角度。 | 风格待确认（例图未核） | Sea-Advantage-4063 | [正文及提示词](reddit.md#r15) |
-| [R16 H3 character LoRA: What I learn from trainin…](https://www.reddit.com/r/StableDiffusion/comments/1wbd17p/) | 2026-09-09 | 角色LoRA·训练经验｜记录训练失败经验及模型模式差异。 | —（不涉及具体画风） | Tiny-Highlight-9180 | [正文及部分评论](reddit.md#r16) |
-| [R17 Recent update has completely borked some old…](https://www.reddit.com/r/comfyui/comments/1w4ao8f/) | 2026-09-01 | 工作流兼容·节点排错｜记录图像比较节点导致的界面异常及上游 issue。 | —（不涉及具体画风） | Implausibilibuddy | [正文及节点作者评论](reddit.md#r17) |
+| [R02 ComfyUI-ZFRNodes v1.1.1 — added a LoRA datas…](https://www.reddit.com/r/comfyui/comments/1w3lscu/comfyuizfrnodes_v111_added_a_lora_dataset/) | 2026-09-01 | LoRA训练·批量标注·局部修图｜用文件夹输入生成训练集及批量图像标注。 | — | Single_Land8080 | [正文与两条相关评论](reddit.md#r02) |
+| [R03 Beginner ComfyUI tutorials I made while lear…](https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/) | 2026-09-30 | 工作流入门·姿态控制·采样比较｜用带注释的工作流学习节点、姿态与采样。 | — | aarsla | [正文及部分评论](reddit.md#r03) |
+| [R04 FluxKleinAllInOne Workflow](https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/) | 2026-10-07 | 多参考·局部修图·扩图｜集成参考编辑、局部重绘和扩图。 | — | 755136 | [正文；未读取外部工作流](reddit.md#r04) |
+| [R05 I built an all-in-one ComfyUI workflow for s…](https://www.reddit.com/r/comfyui/comments/1x0pvae/i_built_an_allinone_comfyui_workflow_for_short_ai/) | 2026-10-08 | 多主体·场景一致性·人物参考｜角色表、全景场景和多角色组合串联。 | — | EzkaProductions | [正文及关于付费和布局限制的评论](reddit.md#r05) |
+| [R06 50 Free ComfyUI Automation Workflows (Ep38)](https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/) | 2026-10-13 | 批量处理·提示词·LoRA标注｜覆盖文件夹处理、提示组合与自动标注。 | — | pixaromadesign | [帖子正文及少量评论](reddit.md#r06) |
+| [R08 HERE IS A BAD EXAMPLE NOW LET ME HORRIBLY EX…](https://www.reddit.com/r/comfyui/comments/1x9gwv8/here_is_a_bad_example_now_let_me_horribly_explain/) | 2026-10-19 | 人物材质·3D纹理·局部精修｜在保持 UV 布局的前提下分部件重做材质。 | — | o0ANARKY0o | [正文和评论中的媒体占位](reddit.md#r08) |
+| [R09 my MOSS-Image workflow is doing well on civi…](https://www.reddit.com/r/comfyui/comments/1xawcnv/my_mossimage_workflow_is_doing_well_on_civitai_so/) | 2026-10-21 | 构图控制·文字编辑·放大｜MOSS 图像生成工作流提供框选布局与放大。 | — | AuzBoss | [帖子正文](reddit.md#r09) |
+| [R11 Krea2-realism-V2 is finally here!](https://www.reddit.com/r/StableDiffusion/comments/1ulonm8/) | 2026-07-03 | 人物表情·自然语言·LoRA搭配｜作者建议自然语言描述场景并搭配角色 LoRA。 | 写实｜作者介绍写实方向，侧重表情、纹理与光照。 | rynaleopard | [正文及部分评论](reddit.md#r11) |
+| [R13 Made a small ComfyUI browser extension to sw…](https://www.reddit.com/r/comfyui/comments/1vtcg3d/) | 2026-08-20 | 工作流自动化·图像编辑｜从网页图像启动本地 ComfyUI 工作流。 | — | CreepyInpu | [正文](reddit.md#r13) |
+| [R14 If you are going to re-edit with Qwen Image …](https://www.reddit.com/r/comfyui/comments/1wlpwcw/) | 2026-09-21 | 连续编辑·采样种子｜连续编辑时关注固定种子可能造成的伪影。 | — | Gremlation | [正文及部分讨论](reddit.md#r14) |
+| [R15 A simple character-sheet workflow in ComfyUI…](https://www.reddit.com/user/Sea-Advantage-4063/comments/1wexhhp/a_simple_charactersheet_workflow_in_comfyui_using/) | 2026-09-13 | 人物参考·多视图·LoRA数据｜用全身与面部裁切组合参考并拼接多角度。 | 设计思路：角色多视图｜组合全身与面部参考，再提取正侧背角色图。 | Sea-Advantage-4063 | [正文及提示词](reddit.md#r15) |
+| [R16 H3 character LoRA: What I learn from trainin…](https://www.reddit.com/r/StableDiffusion/comments/1wbd17p/) | 2026-09-09 | 角色LoRA·训练经验｜记录训练失败经验及模型模式差异。 | — | Tiny-Highlight-9180 | [正文及部分评论](reddit.md#r16) |
+| [R17 Recent update has completely borked some old…](https://www.reddit.com/r/comfyui/comments/1w4ao8f/) | 2026-09-01 | 工作流兼容·节点排错｜记录图像比较节点导致的界面异常及上游 issue。 | — | Implausibilibuddy | [正文及节点作者评论](reddit.md#r17) |
 
 ## 条目详解
 
@@ -202,7 +202,7 @@
 
 **适用方向：** 人物表情·自然语言·LoRA搭配｜作者建议自然语言描述场景并搭配角色 LoRA。
 
-**美术风格方向：** 风格待确认（例图未核）
+**美术风格方向：** 写实｜作者介绍写实方向，侧重表情、纹理与光照。
 
 - 原作者：rynaleopard
 - 原始日期：2026-07-02T17:26:32+00:00
@@ -213,8 +213,8 @@
 - 原作者分享要点（本库概述）：作者称新版改进人脸表情、纹理和光照，并建议以 4–5 句场景描述作提示；效果仅属作者报告。
 - 公开资源：https://huggingface.co/RudySen/Krea2-realism-V2
 - 作者参数／触发词及边界：详见原帖，未经复跑
-- 风格说明与可见范围：写实（作者描述）；例图未核，脸型和姿态未知。
-- 风格依据：作者文字，例图未核
+- 风格说明：作者介绍写实方向，侧重表情、纹理与光照。
+- 风格说明依据：作者文字，例图未核
 - 实际读取范围：正文及部分评论
 - 信息限制与本库备注：对比图未查看；未复跑。
 - 追溯链接：未取得／未说明
@@ -274,7 +274,7 @@
 
 **适用方向：** 人物参考·多视图·LoRA数据｜用全身与面部裁切组合参考并拼接多角度。
 
-**美术风格方向：** 风格待确认（例图未核）
+**设计思路：** 角色多视图｜组合全身与面部参考，再提取正侧背角色图。
 
 - 原作者：Sea-Advantage-4063
 - 原始日期：2026-09-13T04:13:34+00:00
@@ -285,8 +285,8 @@
 - 原作者分享要点（本库概述）：作者先将全身图与脸部局部拼接为参考，生成转身视频，再提取正侧背帧形成角色表；单独说明拼接节点不包含于参考流程。
 - 公开资源：https://github.com/T8mars/comfyui-minimax-h3-audio-T8；https://github.com/ssain3d-lgtm/Comfyui-Image-Stitch
 - 作者参数／触发词及边界：详见原帖，未经复跑
-- 风格说明与可见范围：Krea2 gobaegi LoRA（作者说明）；例图未核，人物与画风特征待确认。
-- 风格依据：作者文字，例图未核
+- 设计思路说明：组合全身与面部参考，再提取正侧背角色图。
+- 设计说明依据：本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。
 - 实际读取范围：正文及提示词
 - 信息限制与本库备注：未观看视频或例图；未检查仓库或复跑。
 - 追溯链接：未取得／未说明
@@ -348,7 +348,7 @@
 
 **适用方向：** 人物表情·采样精修｜作者以 Krea 2 RAW、Turbo LoRA 和双采样工作流探讨…
 
-**美术风格方向：** 写实摄影（作者描述）｜作者称面向写实、清晰度与表情；例图未核，人物五官与造型待确认。
+**美术风格方向：** 写实摄影｜作者介绍写实与面部表情的采样思路。
 
 - 原作者：nsfwVariant
 - 原始日期：2026-07-02
@@ -359,8 +359,8 @@
 - 原作者分享要点（本库概述）：作者称对采样及 LoRA 进行 A/B 试验；第二采样可用于写实，动漫数字艺术可考虑绕过，完整参数见原帖。
 - 公开资源：Civitai、Pastebin 工作流；RES4LYF 节点
 - 作者参数／触发词及边界：原文参数按需参考；未复跑
-- 风格说明与可见范围：作者称面向写实、清晰度与表情；例图未核，人物五官与造型待确认。
-- 风格依据：作者文字；未看例图
+- 风格说明：作者介绍写实与面部表情的采样思路。
+- 风格说明依据：作者文字；未看例图
 - 实际读取范围：正文开头与模型、节点说明部分；未逐条核完全部评论与例图
 - 信息限制与本库备注：这是作者报告，并未独立复跑。 日期仅有搜索服务标注，尚未核实原页绝对时间。
 - 追溯链接：未取得／未说明
@@ -420,7 +420,7 @@
 
 **适用方向：** 人物材质·采样精修·LoRA训练｜组合两段采样与放大，并分享角色训练标注方法。
 
-**美术风格方向：** 风格待确认（例图未核）
+**美术风格方向：** 写实｜作者介绍人物皮肤纹理的细化方法。
 
 - 原作者：Brief-Leg-8831
 - 原始日期：2026-07-01
@@ -431,8 +431,8 @@
 - 原作者分享要点（本库概述）：作者称两段采样加 SeedVR2 改进皮肤纹理；评论披露 175 张图、Qwen3-VL 4B 标注、RAW 训练 4000 步及配置链接，特征和可变姿态衣着采取不同标注。
 - 公开资源：https://pastebin.com/DMphxJAe
 - 作者参数／触发词及边界：详见原帖，未经复跑
-- 风格说明与可见范围：写实（作者描述）；例图未核，人物比例与脸型未知。
-- 风格依据：作者文字，例图未核
+- 风格说明：作者介绍人物皮肤纹理的细化方法。
+- 风格说明依据：作者文字，例图未核
 - 实际读取范围：正文及作者详细训练评论
 - 信息限制与本库备注：配置作者称删除路径后可能有语法问题；未读图片及复跑。
 - 追溯链接：未取得／未说明
