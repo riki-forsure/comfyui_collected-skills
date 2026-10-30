@@ -197,7 +197,7 @@
         "风格LoRA"
       ],
       "suitable_summary": "作者分享一组人物表情差分，并给出 WAI 系列底模和一枚风格 LoRA 名称。",
-      "artstyle_summary": "按作者描述，本例色彩偏浅；例图未核，人物比例、五官与表情处理待确认。",
+      "artstyle_summary": "浅色表现｜按作者描述，本例色彩偏浅。",
       "summary": "作者公开的资源为 WAI 系列与 K4n4m3n4k4-000015，并将其称为 Kanamenaka 画风；底模精确版本、权重和完整提示未取得。",
       "public_parameters": "WAI 系列，具体版本未说明；LoRA 文件名 K4n4m3n4k4-000015；权重与完整配方未说明。",
       "public_resources": [],
@@ -218,12 +218,16 @@
         "提示词语法"
       ],
       "suitable_summary": "讨论 Anima 画师标签、混合节点与 LoRA 的差异，回帖对语法和数量限制存在不同说法。",
-      "artstyle_summary": "—（讨论混合方法，未描述特定画风）",
+      "artstyle_summary": "",
       "summary": "楼主寻求无 LoRA 的组合方式，回帖涉及标签写法、条件混合及专用节点。前端、版本和编码路径未统一，不能据此建立画师数量硬上限或通用权重。",
       "public_parameters": "回帖中的数量、AND/@语法和加权建议尚未核对作者模型卡及节点实现，不作为已确认推荐设置。",
       "public_resources": [],
       "read_level": "第1–8楼文字；原帖和回帖公开讨论已读，图片、楼中楼及机制未进一步验证。",
-      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。"
+      "limitations": "本库未安装所分享节点、未出图或复跑；原作者经验与本库观察范围分别记录。",
+      "design_tags": [
+        "画师混合"
+      ],
+      "design_summary": "讨论画师标签、混合节点与 LoRA 的组合方式。"
     },
     {
       "id": "TB-06",
