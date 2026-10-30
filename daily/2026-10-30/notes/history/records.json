@@ -190,11 +190,9 @@
         "新手"
       ],
       "suitable_summary": "标题称介绍常见画风，具体方法和例图待查。",
-      "artstyle_tags": [
-        "待确认"
-      ],
-      "artstyle_summary": "例图未核，人物与画风特征待确认。",
-      "artstyle_basis": "未观看画面；依据标题及公开API简介。",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "标题称介绍常见画风，具体方法和例图待查。",
       "public_resources": [],
       "public_parameters": "",
@@ -204,7 +202,12 @@
         "https://api.bilibili.com/x/web-interface/view?bvid=BV1n9MM6mE29"
       ],
       "copyright": 3,
-      "source_group": "bilibili"
+      "source_group": "bilibili",
+      "design_tags": [
+        "画风入门"
+      ],
+      "design_summary": "标题介绍常见画风的复现方法。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "BV11Eb26mEo9",
@@ -389,10 +392,8 @@
         "微调"
       ],
       "suitable_summary": "当前简介列出模型用法与两组推荐采样参数。",
-      "artstyle_tags": [
-        "待确认"
-      ],
-      "artstyle_summary": "例图未核，人物与画风特征待确认。",
+      "artstyle_tags": [],
+      "artstyle_summary": "模型用法分享；简介主要提供普通版与 Turbo 参数。",
       "artstyle_basis": "未观看画面；依据标题及公开API简介。",
       "summary": "当前简介描述以该模型出静态图并列出普通版及Turbo参数；简介可能在投稿后更新，视频画面未核。",
       "public_resources": [
@@ -406,7 +407,8 @@
         "https://api.bilibili.com/x/web-interface/view?bvid=BV1oZap6CE8m"
       ],
       "copyright": 3,
-      "source_group": "bilibili"
+      "source_group": "bilibili",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "BV1fKpB6wEx4",
@@ -424,11 +426,9 @@
         "模型"
       ],
       "suitable_summary": "简介提供模型页与对比工作流；具体测试及结论未读。",
-      "artstyle_tags": [
-        "待确认"
-      ],
-      "artstyle_summary": "例图未核，人物与画风特征待确认。",
-      "artstyle_basis": "未观看画面；依据标题及公开API简介。",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "简介提供模型页与对比工作流；具体测试及结论未读。",
       "public_resources": [
         "https://pan.quark.cn/s/9147d02fab2b",
@@ -446,7 +446,8 @@
         "https://api.bilibili.com/x/web-interface/view?bvid=BV1fKpB6wEx4"
       ],
       "copyright": 1,
-      "source_group": "bilibili"
+      "source_group": "bilibili",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "BV18Xp86ZEH1",
@@ -582,10 +583,8 @@
         "LoRA"
       ],
       "suitable_summary": "标题介绍角色LoRA，具体角色及下载条件待查。",
-      "artstyle_tags": [
-        "待确认"
-      ],
-      "artstyle_summary": "例图未核，人物与画风特征待确认。",
+      "artstyle_tags": [],
+      "artstyle_summary": "角色 LoRA 资源分享。",
       "artstyle_basis": "未观看画面；依据标题及公开API简介。",
       "summary": "标题介绍角色LoRA，具体角色及下载条件待查。",
       "public_resources": [
@@ -601,7 +600,8 @@
         "https://api.bilibili.com/x/web-interface/view?bvid=BV1YDeB6HEg8"
       ],
       "copyright": 1,
-      "source_group": "bilibili"
+      "source_group": "bilibili",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "BV1pKN96iEso",
@@ -649,10 +649,8 @@
         "参考"
       ],
       "suitable_summary": "简介列网盘，具体画风和资源待看。",
-      "artstyle_tags": [
-        "待确认"
-      ],
-      "artstyle_summary": "例图未核，人物与画风特征待确认。",
+      "artstyle_tags": [],
+      "artstyle_summary": "画风资源分享；本次读取了标题与简介。",
       "artstyle_basis": "未观看画面；依据标题及公开API简介。",
       "summary": "简介列网盘，具体画风和资源待看。",
       "public_resources": [
@@ -666,7 +664,8 @@
         "https://api.bilibili.com/x/web-interface/view?bvid=BV14Cuj6nE5T"
       ],
       "copyright": 3,
-      "source_group": "bilibili"
+      "source_group": "bilibili",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "R02",
@@ -895,8 +894,10 @@
         "LoRA搭配"
       ],
       "suitable_summary": "作者建议自然语言描述场景并搭配角色 LoRA。",
-      "artstyle_tags": [],
-      "artstyle_summary": "写实（作者描述）；例图未核，脸型和姿态未知。",
+      "artstyle_tags": [
+        "写实"
+      ],
+      "artstyle_summary": "作者介绍写实方向，侧重表情、纹理与光照。",
       "artstyle_basis": "作者文字，例图未核",
       "summary": "作者称新版改进人脸表情、纹理和光照，并建议以 4–5 句场景描述作提示；效果仅属作者报告。",
       "public_resources": [
@@ -906,7 +907,8 @@
       "read_level": "正文及部分评论",
       "limitations": "对比图未查看；未复跑。",
       "related_urls": [],
-      "source_group": "reddit"
+      "source_group": "reddit",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "R13",
@@ -984,8 +986,8 @@
       ],
       "suitable_summary": "用全身与面部裁切组合参考并拼接多角度。",
       "artstyle_tags": [],
-      "artstyle_summary": "Krea2 gobaegi LoRA（作者说明）；例图未核，人物与画风特征待确认。",
-      "artstyle_basis": "作者文字，例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者先将全身图与脸部局部拼接为参考，生成转身视频，再提取正侧背帧形成角色表；单独说明拼接节点不包含于参考流程。",
       "public_resources": [
         "https://github.com/T8mars/comfyui-minimax-h3-audio-T8；https://github.com/ssain3d-lgtm/Comfyui-Image-Stitch"
@@ -994,7 +996,12 @@
       "read_level": "正文及提示词",
       "limitations": "未观看视频或例图；未检查仓库或复跑。",
       "related_urls": [],
-      "source_group": "reddit"
+      "source_group": "reddit",
+      "design_tags": [
+        "角色多视图"
+      ],
+      "design_summary": "组合全身与面部参考，再提取正侧背角色图。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "R16",
@@ -1133,7 +1140,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称 anime 和 illustration；例图未核，人物造型待确认。",
+      "artstyle_summary": "作者定位为动漫与插画生成。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "实质替换早期蒸馏模型与采样方案，需使用作者自定义 transformer。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1144,7 +1151,8 @@
         "https://huggingface.co/aina-tech/Anima-Lightning/commit/107aaf2c123f9dac346fc5d66d9e2e544913818d",
         "https://huggingface.co/aina-tech/Anima-Lightning/blob/107aaf2c123f9dac346fc5d66d9e2e544913818d/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-04",
@@ -1165,7 +1173,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称动漫及插画；例图未核，人物体型五官及光影待确认。",
+      "artstyle_summary": "作者定位为动漫与插画生成。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "Anima 扩层微调，从28层扩至40层，作者称增加约170万训练样本。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1176,7 +1184,8 @@
         "https://huggingface.co/Gazingstars123/Anima-2.9B/commit/c2ef3f50236571437c0543127a7b2502305da204",
         "https://huggingface.co/Gazingstars123/Anima-2.9B/blob/c2ef3f50236571437c0543127a7b2502305da204/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-05",
@@ -1197,7 +1206,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称动画与插画；例图未核，人物造型待确认。",
+      "artstyle_summary": "作者以动漫和插画作为局部修复使用方向。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "Anima Base v1.0 的轻量局部重绘控制器。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1208,7 +1217,8 @@
         "https://huggingface.co/kawaimasa/Anima_Kawai_Inpaint_ControlNet-LLLite/commit/bd9092ffa5f69c257c012d10ee133f7e273cdb65",
         "https://huggingface.co/kawaimasa/Anima_Kawai_Inpaint_ControlNet-LLLite/blob/bd9092ffa5f69c257c012d10ee133f7e273cdb65/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-06",
@@ -1230,7 +1240,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称 Anima visual style；例图未核，人物造型待确认。",
+      "artstyle_summary": "作者面向 Anima 插画，重点讨论人物绑定与空间关系。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "扩展到52层并引入 Semantic Connector，作者面向人物绑定与空间关系。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1242,7 +1252,8 @@
         "https://huggingface.co/lylogummy/Anima-3.8B/commit/8a6b3ab6fe4e201c02ecb53107516b89a263a2f3",
         "https://huggingface.co/lylogummy/Anima-3.8B/blob/3ef641256377dc4e7efbf35d426ca31c1fe5180b/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-07",
@@ -1264,7 +1275,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称更干净的动漫风；例图未核，人物造型及色彩光影待确认。",
+      "artstyle_summary": "按作者描述，侧重更干净的动漫表现。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "旧仓库新发布V2三款权重；作者说明为单个 LoKr 合并，区别于 V1 全量微调。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1275,7 +1286,8 @@
         "https://huggingface.co/SeeSee21/AniSee/commit/7fe8b617147a9e38335fc5121477ca886d54965f",
         "https://huggingface.co/SeeSee21/AniSee/blob/7fe8b617147a9e38335fc5121477ca886d54965f/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-08",
@@ -1326,7 +1338,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称 Anima 插画；例图未核，人物造型待确认。",
+      "artstyle_summary": "作者面向 Anima 插画，重点讨论长文本描述。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "基于 Anima Base v1.0 后训练，关注长自然语言和结构化描述。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1337,7 +1349,8 @@
         "https://huggingface.co/Johnny-Z/Anima-Light-Lavender/commit/28bffb64500395361020adc25d056a55ed1f48cc",
         "https://huggingface.co/Johnny-Z/Anima-Light-Lavender/blob/28bffb64500395361020adc25d056a55ed1f48cc/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-10",
@@ -1600,7 +1613,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称宽分布动漫插画；例图未核，人物比例五官与材质待确认。",
+      "artstyle_summary": "作者定位为多种动漫插画表现。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "作者的动漫领域适配及结构化提示格式，包含文生图与参考图任务。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1611,7 +1624,8 @@
         "https://huggingface.co/MicksHF/Qwen-Image-2.1-Anime-Fusal/commit/c0492e98c2ab17990264f9b06c5754b3d8fc16d5",
         "https://huggingface.co/MicksHF/Qwen-Image-2.1-Anime-Fusal/blob/c0492e98c2ab17990264f9b06c5754b3d8fc16d5/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-19",
@@ -1722,7 +1736,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者称青年向动漫、戏剧照明与动态构图；例图未核，人物体型五官待确认。",
+      "artstyle_summary": "按作者描述，侧重青年向动漫、戏剧光照与动态构图。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "MOSS 图像基座的青年向动画风 LoRA，提供两种训练步数和 ComfyUI 专用权重。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1733,7 +1747,8 @@
         "https://huggingface.co/axiomofmind/Moss-image-anime-lora/commit/f03fe9589e17a8c369a5ec8c877abc7dc25ca005",
         "https://huggingface.co/axiomofmind/Moss-image-anime-lora/blob/f03fe9589e17a8c369a5ec8c877abc7dc25ca005/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "HF-23",
@@ -1754,7 +1769,7 @@
       "artstyle_tags": [
         "动漫插画"
       ],
-      "artstyle_summary": "作者以 Anima 动漫角色示范；例图未核，人物体型五官待确认。",
+      "artstyle_summary": "作者以动漫角色作为参考图适配示范。",
       "artstyle_basis": "作者文字描述；未看例图",
       "summary": "在 Anima 工作流中加入参考图适配器及双人物支持，作者提供单节点工作流。",
       "public_resources": "原模型卡、公开文件与提交历史；以原链接为准",
@@ -1765,7 +1780,8 @@
         "https://huggingface.co/ElectronGirl/anima-ref-adapter/commit/1202b46fabffea77e0b696242daab1d63965fba6",
         "https://huggingface.co/ElectronGirl/anima-ref-adapter/blob/1202b46fabffea77e0b696242daab1d63965fba6/README.md"
       ],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "GH-01",
@@ -1783,11 +1799,9 @@
         "Anima"
       ],
       "suitable_summary": "26.8.1 已加入 post-LLMAdapter 多画师混合；26.8.2 新增可自动生成或固定的 Adapter Q 锚点种子，以控制跨次复用。",
-      "artstyle_tags": [
-        "风格参考"
-      ],
-      "artstyle_summary": "作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材质待确认。",
-      "artstyle_basis": "作者文字，未实际看图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "26.8.1 已加入 post-LLMAdapter 多画师混合；26.8.2 新增可自动生成或固定的 Adapter Q 锚点种子，以控制跨次复用。",
       "public_resources": [
         "https://github.com/An1X3R/Anima-Artist-Mixer",
@@ -1801,7 +1815,12 @@
       "related_urls": [],
       "commit_sha": "8e6c780cb1fd2cb3532efaa623ad5ae510b5a2d5",
       "committer_at": "2026-07-26T21:25:23Z",
-      "source_group": "github"
+      "source_group": "github",
+      "design_tags": [
+        "画师混合"
+      ],
+      "design_summary": "通过多画师条件混合与锚点控制组织风格组合。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "GH-02",
@@ -1819,11 +1838,9 @@
         "风格分析"
       ],
       "suitable_summary": "原项目的社区 fork 增加建议组合、画师相似性和对照图诊断；可对比单画师与混合后的差异。",
-      "artstyle_tags": [
-        "风格参考"
-      ],
-      "artstyle_summary": "作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材质待确认。",
-      "artstyle_basis": "作者文字，未实际看图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "原项目的社区 fork 增加建议组合、画师相似性和对照图诊断；可对比单画师与混合后的差异。",
       "public_resources": [
         "https://github.com/Rinne414/Anima-Artist-Mixer-Forge",
@@ -1837,7 +1854,12 @@
       "related_urls": [],
       "commit_sha": "4bae5f5a95937bc32c4f07746f0e7a75cebcb90d",
       "committer_at": "2026-07-17T12:28:59Z",
-      "source_group": "github"
+      "source_group": "github",
+      "design_tags": [
+        "画师对照"
+      ],
+      "design_summary": "比较单画师与混合效果，辅助选择组合。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "GH-03",
@@ -1991,11 +2013,9 @@
         "Krea 2"
       ],
       "suitable_summary": "示范用 LM Studio 组织文字及内容参考，再通过 Untwisting RoPE／RF Inversion 使用独立风格参考，提供可导入工作流。",
-      "artstyle_tags": [
-        "风格参考"
-      ],
-      "artstyle_summary": "作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材质待确认。",
-      "artstyle_basis": "作者文字，未实际看图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "示范用 LM Studio 组织文字及内容参考，再通过 Untwisting RoPE／RF Inversion 使用独立风格参考，提供可导入工作流。",
       "public_resources": [
         "https://github.com/sakugetu/comfyui-krea2-stylebridge-lmstudio",
@@ -2008,7 +2028,12 @@
       "related_urls": [],
       "commit_sha": "23470d5f93c5130242bd9a328c11c8db9e7eed80",
       "committer_at": "2026-07-05T08:59:39Z",
-      "source_group": "github"
+      "source_group": "github",
+      "design_tags": [
+        "风格迁移"
+      ],
+      "design_summary": "将内容描述与独立风格参考分开组织。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "GH-08",
@@ -2027,11 +2052,9 @@
         "Krea 2"
       ],
       "suitable_summary": "首版提供 281 个长篇风格描述及同一主体的画廊、滑块对照，便于浏览和组合画风描述。",
-      "artstyle_tags": [
-        "风格参考"
-      ],
-      "artstyle_summary": "作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材质待确认。",
-      "artstyle_basis": "作者文字，未实际看图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "首版提供 281 个长篇风格描述及同一主体的画廊、滑块对照，便于浏览和组合画风描述。",
       "public_resources": [
         "https://github.com/lumenastrum/clio-style-preview",
@@ -2044,7 +2067,12 @@
       "related_urls": [],
       "commit_sha": "41b6baf6bb226c4bf4f8e06da11e2c490a50c8dd",
       "committer_at": "2026-07-19T20:05:16Z",
-      "source_group": "github"
+      "source_group": "github",
+      "design_tags": [
+        "风格词库"
+      ],
+      "design_summary": "用同主体对照浏览和组合不同风格描述。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "GH-09",
@@ -2063,11 +2091,9 @@
         "Krea 2"
       ],
       "suitable_summary": "为 Krea 2／Flux 提供按类别选择的风格和焦距、光圈、镜头、胶片及光照字段，输出自然语言提示。",
-      "artstyle_tags": [
-        "风格参考"
-      ],
-      "artstyle_summary": "作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材质待确认。",
-      "artstyle_basis": "作者文字，未实际看图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "为 Krea 2／Flux 提供按类别选择的风格和焦距、光圈、镜头、胶片及光照字段，输出自然语言提示。",
       "public_resources": [
         "https://github.com/Gothdir/ComfyUI-Krea2-PromptStyler",
@@ -2080,7 +2106,12 @@
       "related_urls": [],
       "commit_sha": "5c83169cdd3316a8a77116deea6d876f0d40eeaa",
       "committer_at": "2026-07-24T09:38:57Z",
-      "source_group": "github"
+      "source_group": "github",
+      "design_tags": [
+        "摄影与风格提示"
+      ],
+      "design_summary": "组合风格、镜头、胶片及光照描述。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "GH-10",
@@ -2098,11 +2129,9 @@
         "结构控制"
       ],
       "suitable_summary": "作者公开从 HiDream-O1 图像转至 Z-Image Turbo 的 Canny 与 Tile 两阶段细节工作流，目标是保留面部构图并补充皮肤纹理。",
-      "artstyle_tags": [
-        "风格参考"
-      ],
-      "artstyle_summary": "作者涉及风格控制；例图未核，人物比例、五官、表情、姿态、线条及光色材质待确认。",
-      "artstyle_basis": "作者文字，未实际看图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者公开从 HiDream-O1 图像转至 Z-Image Turbo 的 Canny 与 Tile 两阶段细节工作流，目标是保留面部构图并补充皮肤纹理。",
       "public_resources": [
         "https://github.com/biosynthart/comfyui-HiDream-O1-Detailer",
@@ -2116,7 +2145,12 @@
       "related_urls": [],
       "commit_sha": "77f2aafb94b8a10737d209513bfbaf42288e23ac",
       "committer_at": "2026-07-06T04:35:49Z",
-      "source_group": "github"
+      "source_group": "github",
+      "design_tags": [
+        "细节表现"
+      ],
+      "design_summary": "通过边缘与 Tile 控制保留面部构图、补充皮肤纹理。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "GH-11",
@@ -2467,9 +2501,9 @@
       ],
       "suitable_summary": "作者分享同一角色多表情参考表的概念 LoRA；建议先描述角色并简化设计。",
       "artstyle_tags": [
-        "动漫表情表"
+        "表情参考表"
       ],
-      "artstyle_summary": "作者称可输出彩色表情表或黑白线稿；例图未核，体型五官与姿态待确认。",
+      "artstyle_summary": "作者介绍彩色表情表与黑白线稿两种输出方向。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "作者分享同一角色多表情参考表的概念 LoRA；建议先描述角色并简化设计。",
       "public_resources": [
@@ -2480,7 +2514,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-05",
@@ -2499,10 +2534,8 @@
         "精修"
       ],
       "suitable_summary": "作者以 Anima base v1.0 训练，附样图使用参数。",
-      "artstyle_tags": [
-        "画师风格"
-      ],
-      "artstyle_summary": "作者未充分文字描述外观；例图未核，人物及线条上色待确认。",
+      "artstyle_tags": [],
+      "artstyle_summary": "画师风格 LoRA 分享；原文主要提供训练基座与用法。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "作者以 Anima base v1.0 训练，附样图使用参数。",
       "public_resources": [
@@ -2513,7 +2546,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-06",
@@ -2532,10 +2566,8 @@
         "LoRA"
       ],
       "suitable_summary": "Machi 风格适配器的 Anima 版，作者给出权重范围。",
-      "artstyle_tags": [
-        "画师风格"
-      ],
-      "artstyle_summary": "作者仅指向画师风格；例图未核，人物体型、五官、线条及色彩未知。",
+      "artstyle_tags": [],
+      "artstyle_summary": "画师风格 LoRA 分享；原文主要提供适用基座与权重建议。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "Machi 风格适配器的 Anima 版，作者给出权重范围。",
       "public_resources": [
@@ -2546,7 +2578,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-07",
@@ -2599,7 +2632,7 @@
       "artstyle_tags": [
         "水彩"
       ],
-      "artstyle_summary": "依作者命名为水彩风格；例图未核，体型五官、笔触与色彩未知。",
+      "artstyle_summary": "作者以水彩命名该风格版本。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "水彩风格模型的 Krea 2 版，附该版本示范参数。",
       "public_resources": [
@@ -2610,7 +2643,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-09",
@@ -2691,10 +2725,8 @@
         "LoRA"
       ],
       "suitable_summary": "作者的多基座画师风格 LoRA 中的 Anima 1.0 版本。",
-      "artstyle_tags": [
-        "画师风格"
-      ],
-      "artstyle_summary": "模型卡未具体描述视觉；例图未核，人物及媒介特征未知。",
+      "artstyle_tags": [],
+      "artstyle_summary": "画师风格 LoRA 分享；原文主要提供基座与版本信息。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "作者的多基座画师风格 LoRA 中的 Anima 1.0 版本。",
       "public_resources": [
@@ -2705,7 +2737,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-12",
@@ -2724,10 +2757,8 @@
         "LoRA"
       ],
       "suitable_summary": "作者的多基座风格 LoRA 中的 Anima 1.0 版本；页面说明其版本命名方法。",
-      "artstyle_tags": [
-        "画师风格"
-      ],
-      "artstyle_summary": "模型卡未具体描述视觉；例图未核，人物及媒介特征未知。",
+      "artstyle_tags": [],
+      "artstyle_summary": "画师风格 LoRA 分享；原文主要提供基座与版本信息。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "作者的多基座风格 LoRA 中的 Anima 1.0 版本；页面说明其版本命名方法。",
       "public_resources": [
@@ -2738,7 +2769,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-13",
@@ -2895,7 +2927,7 @@
         "油画",
         "超现实"
       ],
-      "artstyle_summary": "据作者提示词描述，含厚涂笔触、画布质感和戏剧明暗；例图未核，人物比例、五官及表情未知。",
+      "artstyle_summary": "按作者提示词描述，包含厚涂笔触、画布质感与戏剧明暗。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "作者分享绘画风格 LoRA 和可组合的风格提示方向。",
       "public_resources": [
@@ -2906,7 +2938,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-18",
@@ -2991,7 +3024,7 @@
         "柔光",
         "日式插画"
       ],
-      "artstyle_summary": "作者描述梦幻光影、清新人物线条及柔和粉彩；例图未核，体型五官及表情未知。",
+      "artstyle_summary": "按作者描述，侧重梦幻光影、清新线条与柔和粉彩。",
       "artstyle_basis": "作者文字；例图未核",
       "summary": "作者分享柔光风格 LoRA 单用和多 LoRA 组合的不同提示策略。",
       "public_resources": [
@@ -3002,7 +3035,8 @@
       "read_level": "公开 API 模型卡正文及指定版本元数据；未读取图片与工作流文件",
       "limitations": "页面原帖以浏览工具打开失败；未看图、未下载配置、未安装或复跑。版本发布日期不等于模型首次创建日期。",
       "related_urls": [],
-      "source_group": "civitai"
+      "source_group": "civitai",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "CV-21",
@@ -3053,8 +3087,8 @@
       ],
       "suitable_summary": "作者介绍 Emanata LoRA 的表情符号触发词，建议每图使用一种效果并配合对应情绪词。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者介绍 Emanata LoRA 的表情符号触发词，建议每图使用一种效果并配合对应情绪词。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/32301",
@@ -3064,7 +3098,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "漫画表情符号"
+      ],
+      "design_summary": "用反应符号与情绪词组织人物表情。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-02",
@@ -3084,8 +3123,8 @@
       ],
       "suitable_summary": "同一作者比较两种 LoRA 的提示跟随与构图，并说明样本差异、品质词和基座可能影响结果；属于作者经验。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "同一作者比较两种 LoRA 的提示跟随与构图，并说明样本差异、品质词和基座可能影响结果；属于作者经验。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/32635",
@@ -3095,7 +3134,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "CVA-03",
@@ -3115,8 +3155,8 @@
       ],
       "suitable_summary": "作者分享 Krea 2、Ideogram 4、Klein 9B 训练配置及推理工作流的附件，并提醒推理链可能影响 LoRA 判断。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "作者分享 Krea 2、Ideogram 4、Klein 9B 训练配置及推理工作流的附件，并提醒推理链可能影响 LoRA 判断。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/32226",
@@ -3126,7 +3166,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "CVA-04",
@@ -3146,8 +3187,8 @@
       ],
       "suitable_summary": "Anima 系列导论讨论动漫底模发展和常见误解；技术史和评价均属于作者立场。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "Anima 系列导论讨论动漫底模发展和常见误解；技术史和评价均属于作者立场。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/33274",
@@ -3157,7 +3198,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "CVA-05",
@@ -3177,8 +3219,8 @@
       ],
       "suitable_summary": "Anima 系列第二篇介绍 Forge Neo 环境、模型和启动时检查，作者也说明对其他前端的了解边界。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "Anima 系列第二篇介绍 Forge Neo 环境、模型和启动时检查，作者也说明对其他前端的了解边界。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/33315",
@@ -3188,7 +3230,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "CVA-06",
@@ -3208,8 +3251,8 @@
       ],
       "suitable_summary": "作者复盘首次角色 LoRA 的四项错误与训练经验。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "作者复盘首次角色 LoRA 的四项错误与训练经验。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/33606",
@@ -3219,7 +3262,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "CVA-07",
@@ -3239,8 +3283,8 @@
       ],
       "suitable_summary": "作者针对风格不明显、提示词混合与多个 LoRA 相互覆盖提供排查建议。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者针对风格不明显、提示词混合与多个 LoRA 相互覆盖提供排查建议。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/33856",
@@ -3250,7 +3294,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "风格搭配"
+      ],
+      "design_summary": "讨论风格不明显与多个 LoRA 相互覆盖的排查思路。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-08",
@@ -3270,8 +3319,8 @@
       ],
       "suitable_summary": "表情标签词典按情绪、眼眉口、符号等分类；作者标记效果不确定词条，强调与检查点和提示有关。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "表情标签词典按情绪、眼眉口、符号等分类；作者标记效果不确定词条，强调与检查点和提示有关。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/34888",
@@ -3281,7 +3330,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "表情设计"
+      ],
+      "design_summary": "按情绪和眼眉口组织表情提示词。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-09",
@@ -3299,10 +3353,10 @@
         "Illustrious",
         "细节优化"
       ],
-      "suitable_summary": "文章探讨 ComfyUI 中 Anima 与 Illustrious 图像细节增强；正文包含配置及用途说明。",
+      "suitable_summary": "介绍 Anima 与 Illustrious 的细节增强方法。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "文章探讨 ComfyUI 中 Anima 与 Illustrious 图像细节增强；正文包含配置及用途说明。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/35089",
@@ -3312,7 +3366,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "细节表现"
+      ],
+      "design_summary": "讨论 Anima 与 Illustrious 的图像细节增强方法。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-10",
@@ -3332,8 +3391,8 @@
       ],
       "suitable_summary": "本地 LLM 节点与提示模板以场景和人物为约束，通过镜头、裁切和景深等组织随机构图。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "本地 LLM 节点与提示模板以场景和人物为约束，通过镜头、裁切和景深等组织随机构图。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/35626",
@@ -3343,7 +3402,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "镜头构图"
+      ],
+      "design_summary": "用镜头、裁切与景深组织随机提示词。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-11",
@@ -3363,8 +3427,8 @@
       ],
       "suitable_summary": "作者对单个混合来源 LoRA 做分块实验，报告写实倾向与风格损失的权衡；结论仅适用于所测模型与评分方法。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者对单个混合来源 LoRA 做分块实验，报告写实倾向与风格损失的权衡；结论仅适用于所测模型与评分方法。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/36233",
@@ -3374,7 +3438,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "写实与风格平衡"
+      ],
+      "design_summary": "比较 LoRA 分块权重对写实倾向与风格保留的影响。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-12",
@@ -3394,8 +3463,8 @@
       ],
       "suitable_summary": "作者解释工作流分组、草图与高分辨率、区域提示、修复和批处理；提供两个不同布局的工作流。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "作者解释工作流分组、草图与高分辨率、区域提示、修复和批处理；提供两个不同布局的工作流。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/37140",
@@ -3405,7 +3474,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "CVA-13",
@@ -3425,8 +3495,8 @@
       ],
       "suitable_summary": "作者说明将标签排序、归属人物并转成不同模型适用句式的浏览器规则，包含未知标签和元标签处理。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者说明将标签排序、归属人物并转成不同模型适用句式的浏览器规则，包含未知标签和元标签处理。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/37453",
@@ -3436,7 +3506,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "多人物描述"
+      ],
+      "design_summary": "按人物归属组织标签并转换提示词句式。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-14",
@@ -3456,8 +3531,8 @@
       ],
       "suitable_summary": "作者说明在 Krita 中用图层制作区域、绑定独立提示并调整堆叠顺序，ComfyUI 作后台。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者说明在 Krita 中用图层制作区域、绑定独立提示并调整堆叠顺序，ComfyUI 作后台。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/37534",
@@ -3467,7 +3542,12 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "design_tags": [
+        "区域构图"
+      ],
+      "design_summary": "用图层区域分别安排提示词与局部重绘。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "CVA-15",
@@ -3487,8 +3567,8 @@
       ],
       "suitable_summary": "作者列出重复图、背景偏置、标签不一致与步数估计等数据问题，并介绍其数据检查工具。",
       "artstyle_tags": [],
-      "artstyle_summary": "不依据未查看的例图推断画风。",
-      "artstyle_basis": "正文；例图未核",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "作者列出重复图、背景偏置、标签不一致与步数估计等数据问题，并介绍其数据检查工具。",
       "public_resources": [
         "https://civitai.com/api/v1/articles/37569",
@@ -3498,7 +3578,8 @@
       "read_level": "公开 API 文章正文文字；未读取附件及文章例图",
       "limitations": "作者主张及个人经验，未复跑；附件、视觉和相关评论未核。",
       "related_urls": [],
-      "source_group": "civitai_articles"
+      "source_group": "civitai_articles",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "OF-01",
@@ -3574,18 +3655,21 @@
         "对照实验"
       ],
       "suitable_summary": "作者固定种子和简单构图测试 108 个风格提示词并讨论限制。",
-      "artstyle_tags": [
-        "风格待确认"
-      ],
-      "artstyle_summary": "作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上色等视觉特征待确认。",
-      "artstyle_basis": "仅作者文字，未看例图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者固定种子和简单构图测试 108 个风格提示词并讨论限制。",
       "public_resources": [],
       "public_parameters": [],
       "read_level": "原文可见文字段落；未读取图片、附件、视频与评论",
       "limitations": "作者单一模板与单一构图的比较，不推广为全面结论。",
       "related_urls": [],
-      "source_group": "other_forums"
+      "source_group": "other_forums",
+      "design_tags": [
+        "多风格对照"
+      ],
+      "design_summary": "固定种子与构图比较 108 个风格提示词。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "OF-04",
@@ -3603,11 +3687,9 @@
         "画风迁移"
       ],
       "suitable_summary": "介绍风格参考 LoRA 与对应模型、节点和工作流。",
-      "artstyle_tags": [
-        "风格待确认"
-      ],
-      "artstyle_summary": "作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上色等视觉特征待确认。",
-      "artstyle_basis": "仅作者文字，未看例图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "介绍风格参考 LoRA 与对应模型、节点和工作流。",
       "public_resources": [
         "原文提供工作流或工具入口，具体见原文"
@@ -3616,7 +3698,12 @@
       "read_level": "原文可见文字段落；未读取图片、附件、视频与评论",
       "limitations": "本文仅查看正文，未读取配置或样图；需自备模型。",
       "related_urls": [],
-      "source_group": "other_forums"
+      "source_group": "other_forums",
+      "design_tags": [
+        "参考图定风格"
+      ],
+      "design_summary": "介绍风格参考 LoRA 与工作流的配合方法。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "OF-05",
@@ -3721,18 +3808,17 @@
         "画风"
       ],
       "suitable_summary": "比较时间步分布对自训风格 LoRA 的影响，并讨论过窄范围。",
-      "artstyle_tags": [
-        "风格待确认"
-      ],
-      "artstyle_summary": "作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上色等视觉特征待确认。",
-      "artstyle_basis": "仅作者文字，未看例图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "比较时间步分布对自训风格 LoRA 的影响，并讨论过窄范围。",
       "public_resources": [],
       "public_parameters": [],
       "read_level": "原文可见文字段落；未读取图片、附件、视频与评论",
       "limitations": "作者使用 12 张图的个人实验；示例图未核。",
       "related_urls": [],
-      "source_group": "other_forums"
+      "source_group": "other_forums",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "OF-09",
@@ -3750,18 +3836,21 @@
         "LoRA搭配"
       ],
       "suitable_summary": "作者讨论画师标签和 LoRA 的画风组合与选择。",
-      "artstyle_tags": [
-        "风格待确认"
-      ],
-      "artstyle_summary": "作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上色等视觉特征待确认。",
-      "artstyle_basis": "仅作者文字，未看例图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者讨论画师标签和 LoRA 的画风组合与选择。",
       "public_resources": [],
       "public_parameters": [],
       "read_level": "原文可见文字段落；未读取图片、附件、视频与评论",
       "limitations": "例图未核，具体组合及视觉效果需回原文确认。",
       "related_urls": [],
-      "source_group": "other_forums"
+      "source_group": "other_forums",
+      "design_tags": [
+        "画师与 LoRA 搭配"
+      ],
+      "design_summary": "讨论画师标签和 LoRA 的组合选择。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "OF-10",
@@ -3922,11 +4011,9 @@
         "图像编辑"
       ],
       "suitable_summary": "作者介绍细线、大片黑色和漫画三种黑白处理方向并比较模型。",
-      "artstyle_tags": [
-        "风格待确认"
-      ],
-      "artstyle_summary": "作者文字提及风格方向，例图未核；人物比例、五官、表情、姿态、线条和上色等视觉特征待确认。",
-      "artstyle_basis": "仅作者文字，未看例图",
+      "artstyle_tags": [],
+      "artstyle_summary": "",
+      "artstyle_basis": "本条概括已读取文字中的设计思路；图像读取范围另见实际读取状态。",
       "summary": "作者介绍细线、大片黑色和漫画三种黑白处理方向并比较模型。",
       "public_resources": [
         "原文提供工作流或工具入口，具体见原文"
@@ -3935,7 +4022,12 @@
       "read_level": "原文可见文字段落；未读取图片、附件、视频与评论",
       "limitations": "作者文字描述；图未核，工作流权限及配置未核。",
       "related_urls": [],
-      "source_group": "other_forums"
+      "source_group": "other_forums",
+      "design_tags": [
+        "黑白表现"
+      ],
+      "design_summary": "介绍细线、大块黑色与漫画三种处理方向。",
+      "aesthetic_entry_type": "design_approach"
     },
     {
       "id": "OF-16",
@@ -3983,7 +4075,7 @@
       ],
       "suitable_summary": "作者反馈 NovelAI v5 在角色与画师风格混合时出现冲突，属于主观使用观察。",
       "artstyle_tags": [],
-      "artstyle_summary": "例图未核，视觉风格待确认。",
+      "artstyle_summary": "",
       "artstyle_basis": "仅搜索引擎对作者主页所显示的文本",
       "summary": "作者反馈 NovelAI v5 在角色与画师风格混合时出现冲突，属于主观使用观察。",
       "public_resources": [],
@@ -3993,7 +4085,8 @@
       "related_urls": [
         "https://tieba.baidu.com/home/main?fr=pb&id=tb.1.2a1c6f63.M57GAqD9H3reRZWJLusaUg%3Ft%3D1529435815"
       ],
-      "source_group": "tieba"
+      "source_group": "tieba",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "TB-C02",
@@ -4012,7 +4105,7 @@
       ],
       "suitable_summary": "作者分享 Krea 2 Turbo 人物 LoRA 训练与不同步数的个人观察。",
       "artstyle_tags": [],
-      "artstyle_summary": "例图未核，视觉风格待确认。",
+      "artstyle_summary": "",
       "artstyle_basis": "仅搜索引擎对作者主页所显示的文本",
       "summary": "作者分享 Krea 2 Turbo 人物 LoRA 训练与不同步数的个人观察。",
       "public_resources": [],
@@ -4024,7 +4117,8 @@
       "related_urls": [
         "https://tieba.baidu.com/home/main/?fr=hottopic&ie=utf-8&un=N%E9%97%AE%E4%B8%80%E4%B8%8D%E7%9F%A5"
       ],
-      "source_group": "tieba"
+      "source_group": "tieba",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "TB-C03",
@@ -4043,7 +4137,7 @@
       ],
       "suitable_summary": "作者讨论人物 LoRA 的混合、蒙版与人物交叠时的局限。",
       "artstyle_tags": [],
-      "artstyle_summary": "例图未核，视觉风格待确认。",
+      "artstyle_summary": "",
       "artstyle_basis": "仅搜索引擎对作者主页所显示的文本",
       "summary": "作者讨论人物 LoRA 的混合、蒙版与人物交叠时的局限。",
       "public_resources": [],
@@ -4053,7 +4147,8 @@
       "related_urls": [
         "https://tieba.baidu.com/home/main/?fr=hottopic&ie=utf-8&un=N%E9%97%AE%E4%B8%80%E4%B8%8D%E7%9F%A5"
       ],
-      "source_group": "tieba"
+      "source_group": "tieba",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "R01",
@@ -4072,9 +4167,9 @@
       ],
       "suitable_summary": "作者以 Krea 2 RAW、Turbo LoRA 和双采样工作流探讨写实表情。",
       "artstyle_tags": [
-        "写实摄影（作者描述）"
+        "写实摄影"
       ],
-      "artstyle_summary": "作者称面向写实、清晰度与表情；例图未核，人物五官与造型待确认。",
+      "artstyle_summary": "作者介绍写实与面部表情的采样思路。",
       "artstyle_basis": "作者文字；未看例图",
       "summary": "作者称对采样及 LoRA 进行 A/B 试验；第二采样可用于写实，动漫数字艺术可考虑绕过，完整参数见原帖。",
       "public_resources": [
@@ -4084,7 +4179,8 @@
       "read_level": "正文开头与模型、节点说明部分；未逐条核完全部评论与例图",
       "limitations": "这是作者报告，并未独立复跑。 日期仅有搜索服务标注，尚未核实原页绝对时间。",
       "related_urls": [],
-      "source_group": "reddit"
+      "source_group": "reddit",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "R07",
@@ -4161,8 +4257,10 @@
         "LoRA训练"
       ],
       "suitable_summary": "组合两段采样与放大，并分享角色训练标注方法。",
-      "artstyle_tags": [],
-      "artstyle_summary": "写实（作者描述）；例图未核，人物比例与脸型未知。",
+      "artstyle_tags": [
+        "写实"
+      ],
+      "artstyle_summary": "作者介绍人物皮肤纹理的细化方法。",
       "artstyle_basis": "作者文字，例图未核",
       "summary": "作者称两段采样加 SeedVR2 改进皮肤纹理；评论披露 175 张图、Qwen3-VL 4B 标注、RAW 训练 4000 步及配置链接，特征和可变姿态衣着采取不同标注。",
       "public_resources": [
@@ -4172,7 +4270,8 @@
       "read_level": "正文及作者详细训练评论",
       "limitations": "配置作者称删除路径后可能有语法问题；未读图片及复跑。",
       "related_urls": [],
-      "source_group": "reddit"
+      "source_group": "reddit",
+      "aesthetic_entry_type": "style_or_resource"
     },
     {
       "id": "R18",
@@ -4220,15 +4319,16 @@
       ],
       "suitable_summary": "官方模型待授权读取",
       "artstyle_tags": [],
-      "artstyle_summary": "待确认",
-      "artstyle_basis": "未取得",
+      "artstyle_summary": "",
+      "artstyle_basis": "本条主要介绍技术、配置或训练方法。",
       "summary": "搜索发现，未核原文与发布提交。",
       "public_resources": "模型卡门控",
       "public_parameters": "未知",
       "read_level": "公开搜索API；模型卡与提交访问401",
       "limitations": "创建时间不等于模型公开发布时间。",
       "related_urls": [],
-      "source_group": "huggingface"
+      "source_group": "huggingface",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "GH-C1",
@@ -4244,7 +4344,7 @@
       "suitable_tags": [],
       "suitable_summary": "",
       "artstyle_tags": [],
-      "artstyle_summary": "未知",
+      "artstyle_summary": "",
       "artstyle_basis": "未看图",
       "summary": "首个 README 仅证实 moodboard，具体工作流出现日期和内容尚未充分核实。",
       "public_resources": [],
@@ -4252,7 +4352,8 @@
       "read_level": "搜索摘要及当前 README",
       "limitations": "首个 README 仅证实 moodboard，具体工作流出现日期和内容尚未充分核实。",
       "related_urls": [],
-      "source_group": "github"
+      "source_group": "github",
+      "aesthetic_entry_type": "not_applicable"
     },
     {
       "id": "GH-C2",
@@ -4268,7 +4369,7 @@
       "suitable_tags": [],
       "suitable_summary": "",
       "artstyle_tags": [],
-      "artstyle_summary": "未知",
+      "artstyle_summary": "",
       "artstyle_basis": "未看图",
       "summary": "当前版本包含大量节点，尚未把目标功能对应到可核实窗口内的首次实质提交。",
       "public_resources": [],
@@ -4276,9 +4377,17 @@
       "read_level": "搜索摘要及当前 README",
       "limitations": "当前版本包含大量节点，尚未把目标功能对应到可核实窗口内的首次实质提交。",
       "related_urls": [],
-      "source_group": "github"
+      "source_group": "github",
+      "aesthetic_entry_type": "not_applicable"
     }
   ],
   "archived_at": "2026-10-30 09:12:34 +08:00",
-  "time_note": "检索时间以各来源覆盖日志为准；归档时间为09:12，本次汇总既有历史检索，不声称02:26之后开展新增搜索。"
+  "time_note": "检索时间以各来源覆盖日志为准；归档时间为09:12，本次汇总既有历史检索，不声称02:26之后开展新增搜索。",
+  "editorial_updates": [
+    {
+      "date": "2026-10-30",
+      "scope": "风格／设计思路标注",
+      "description": "按已读文字区分具体画风、通用设计思路与技术资料；修正机械风格占位说明，原文、作者、日期及实际读取范围保留。"
+    }
+  ]
 }
