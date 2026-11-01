@@ -37,7 +37,7 @@
 
 **适用方向：** LoRA训练·检查点选择｜分别观察不同噪声区间的损失变化。
 
-- 原文标题：Anima：按时间步区间查看LoRA训练损失。
+- 原文标题：[Anima] 通过时间步 loss 分析 LoRA 训练效果 | Analyzing LoRA Training Results with Timestep Loss。
 - 原作者与原文：ame_la / amenorira；[原文](https://civitai.com/articles/37807)。
 - 日期与精确版本：2026-11-02 00:27:38.411 +08:00（文章发表）；文章37807；lora-scripts-anima的log_timestep_loss选项，代码提交未核。
 - 本次类型：首次收录；按已读来源归档。
@@ -56,7 +56,7 @@
 
 **美术风格方向：** 瑞士平面·包豪斯几何｜按作者描述，强调非对称网格、字体与高对比构图。
 
-- 原文标题：XeroDesign-1.0：Z-Image图形海报LoRA。
+- 原文标题：XeroDesign-1.0 (Z-Image 6B LoRA Adapter)。
 - 原作者与原文：xerofounder；数据来源xerocore/argonz-curated-design；[原文](https://huggingface.co/xerofounder/XeroDesign-1.0)。
 - 日期与精确版本：2026-11-02 03:47:50 +08:00（当前仓库提交，非首发日）；rank32；revision c84a8aefb69bae16694c384a25f5da67b07f8216。
 - 本次类型：首次收录；按已读来源归档。
@@ -74,7 +74,7 @@
 
 **美术风格方向：** 低饱和绘画·柔和窗光｜本例以长裙纵向轮廓、侧背姿态与留白营造静谧。
 
-- 原文标题：Hammershoi FLUX 3 Klein LoRA：静谧室内绘画。
+- 原文标题：Hammershoi FLUX 3 Klein LoRA。
 - 原作者与原文：jejunepixels；借鉴Vilhelm Hammershøi画作，素材来源见原卡与数据集；[原文](https://huggingface.co/jejunepixels/Hammershoi-Flux3-LoRA)。
 - 日期与精确版本：2026-11-02 00:23:26 +08:00（当前仓库提交，非首发日）；revision 22b7b8f5fddd6b49f0b6399bfc12960c44a6c8bb；FLUX3 Image Klein Base。
 - 本次类型：首次收录；按已读来源归档。
@@ -109,7 +109,7 @@
 
 **适用方向：** 提示词组织·标签检索｜从本地词库查找标签、别名与关联词。
 
-- 原文标题：ComfyUI YP TagForge Plus。
+- 原文标题：YP TagForge Plus。
 - 原作者与原文：OsanRey；[原文](https://github.com/OsanRey/ComfyUI-YP-TagForge-Plus)。
 - 日期与精确版本：2026-11-02 01:40:03 +08:00（本轮最新提交）；README列0.1.8；提交e33375db73b8d95044d00f2ff5d59a42093d70c4。
 - 本次类型：首次收录；按已读来源归档。
