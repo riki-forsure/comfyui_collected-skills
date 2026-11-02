@@ -4,15 +4,15 @@
 
 - 北京日期与开始时间：2026-11-03 03:58（UTC时钟换算）。
 - 检索类型：每日广泛发现；无具体差距要求，无主动专题。
-- 执行状态：进行中，已读内容先归档；继续整理工作流、社区实践与覆盖记录。
+- 执行状态：本轮已完成整理并归档9项；部分平台接口与图片访问受限，实际范围见下表。
 - 优先时间窗：自2026-11-02晨间检索快照后的新增与实质更新，必要时近期补录并单列原日期；未将后续保存时间当作检索边界。
-- 已归档4项。仅读取与摘要整理，未安装节点、下载大模型、运行生图或自动实验。
+- 已归档9项。仅读取与摘要整理，未安装节点、下载大模型、运行生图或自动实验。
 
 ## 今日值得阅读
 
 - [Qwen-Image 2.1 Lightning v2 RL：四步生成与编辑](https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning-v2-RL)：作者在Lightning v2蒸馏基础上进行RL精炼，分享四步文生图、单参考编辑及多参考生成的权重与示例。发布形式是完整transformer，需要原Qwen2.1的处理器、编码器和VAE，并非独立整套管线。
-- [MOSS高分辨率LoHa：4MP以上生成的实验分享](https://huggingface.co/comfyanonymous/MOSS_image_MAX_ULTRA_hires_lora_test)：作者分享为MOSS-Image-Base训练的LoHa，目标是改善4MP及以上生成；数据为3.5–10MP动漫与摄影混合，作者也提示动漫占比可能偏高。页面给9MP的旧版本与无LoRA对比入口，适合继续关注高分辨率适配路线。
-- [CharaDB：将人物固定项与服装姿态变量分开](https://civitai.com/articles/37854)：作者为批量CG创作整理可视词条与通配符，按发型、眼睛、服装、姿态浏览；强调把固定人物描述保持一致，再改变需要变化的部分。作者用同一基座、seed与基础人物制作示范卡，帮助比较词条表现，而非宣称文本能保证任意模型的角色一致性。
+- [Anima Character Sheet Designer：按视图独立生成角色设定表](https://github.com/ukr8b3g-cmyk/Anima-Character-Sheet-Designer)：作者提供最多13个视图独立生成、再拼成一页的Anima流程，可输入文字，或用本地PixAI／WD标签器提取外观标签。每个视图的基础提示可编辑，部位提示作为补充，最终运行文本可从view_records检查。
+- [Anima系14模型比较：把任务遵循与个人审美分开](https://note.com/ai_sketch/n/n86dbfb22c5ca)：作者称以14个Anima系模型生成336张，固定提示、seed和设置，分别比较简单／困难姿态、自然语言任务与画风偏好。文章公开检查项目和失败例，并记录作者与AI对同图审美排名不同；参考价值在比较方法与审美归属，而非将推荐顺序当作客观排名。
 
 ## 分享速查
 
@@ -22,6 +22,11 @@
 | 后训练／蒸馏LoRA | [S02 StepX-OPD SD3.5 Medium：区分推理LoRA与训练初始化](#s02) | 少步蒸馏·LoRA加载｜分清SD3.5四步推理文件与训练初始化。 | — | [ShimaRinC（发布账户）；模型卡署名StepFun AI；基座Stability AI](https://huggingface.co/ShimaRinC/StepX-OPD-SD3.5) | 作者发布SD3.5 Medium的StepX-OPD四步权重，说明根目录推理LoRA已合并rank160初始化与rank32学生适配器，总rank192。additive_init目录供训练初始化，不是另一枚应再次叠加的四步推理模型。 | 固定revision模型卡全文；未读论文、训练代码、配置实现或示范图 |
 | 后训练／高分辨率LoHa | [S03 MOSS高分辨率LoHa：4MP以上生成的实验分享](#s03) | 高分辨率·MOSS适配器｜关注面向4MP以上生成的训练实验。 | — | [comfyanonymous；基座Comfy-Org/MOSS-Image](https://huggingface.co/comfyanonymous/MOSS_image_MAX_ULTRA_hires_lora_test) | 作者分享为MOSS-Image-Base训练的LoHa，目标是改善4MP及以上生成；数据为3.5–10MP动漫与摄影混合，作者也提示动漫占比可能偏高。页面给9MP的旧版本与无LoRA对比入口，适合继续关注高分辨率适配路线。 | 固定revision模型卡全文及文件目录元数据；未看9MP示范、未下载适配器 |
 | 提示词／素材组织 | [S04 CharaDB：将人物固定项与服装姿态变量分开](#s04) | 提示词组织·角色设定·姿态｜固定人物描述，按需替换服装与动作词。 | 设计思路：固定设定与变量分工｜人物外观独立成行，服装、姿态和表情按页变化。 | [takumi1112 / Taki；基座JANKU v4及NoobAI／Illustrious作者见原文](https://civitai.com/articles/37854) | 作者为批量CG创作整理可视词条与通配符，按发型、眼睛、服装、姿态浏览；强调把固定人物描述保持一致，再改变需要变化的部分。作者用同一基座、seed与基础人物制作示范卡，帮助比较词条表现，而非宣称文本能保证任意模型的角色一致性。 | Civitai公开API文章正文全文；未打开应用、未看词条示范、未下载Release或核验数量 |
+| 角色设定／工作流 | [S05 Anima Character Sheet Designer：按视图独立生成角色设定表](#s05) | 角色设定·多视图·提示词组织｜以外观标签和分视图提示组装设定表。 | 设计思路：外观与视图分工｜固定外观描述，各视图另写方向、景别与部位提示。 | [ukr8b3g-cmyk；PixAI／WD及基座作者见仓库链接](https://github.com/ukr8b3g-cmyk/Anima-Character-Sheet-Designer) | 作者提供最多13个视图独立生成、再拼成一页的Anima流程，可输入文字，或用本地PixAI／WD标签器提取外观标签。每个视图的基础提示可编辑，部位提示作为补充，最终运行文本可从view_records检查。 | README全文及最近3条提交说明；未读工作流JSON、标签器实现或示范图 |
+| 区域布局／提示词节点 | [S06 MOSS YXBOX：在同一画布组织人物、文字与物体框](#s06) | 多主体·文字版面·区域提示｜在画布上分配角色、物体和文字位置。 | 设计思路：版面与内容分区｜各框写对象或文字，整体描述另管全图场景。 | [liangci-ai；基于ComfyUI官方Create Bounding Boxes与MOSS-Image Layout Prompt](https://github.com/liangci-ai/MOSS-YXBOX) | 作者把两个官方节点整合成中文布局工作台，支持物体／文字／角色框、参数锁、背景参照与布局导入导出。输出区分可编辑草稿和MOSS编译布局，便于查阅坐标与内容职责；最新提交修正上游空文本清画布等问题。 | README开头约6000字符，另读PNG布局导入说明和第七节输出格式的相关段落；最近3条提交说明；未读全部README与实现 |
+| 后训练／具体画风 | [S07 Sabikaze MOSS v1：灰蓝绿干笔动漫风格LoRA](#s07) | 人物插画·风格LoRA｜参考灰蓝绿基调与少量暖色点缀的场景绘制。 | 灰蓝绿·干笔动漫｜按作者描述，以重墨线、平面明暗和衣物背景干笔纹理营造安静氛围。 | [lepetitprince716355](https://civitai.com/models/3033719?modelVersionId=3446890) | 作者用同一组57张自生成素材将Sabikaze路线扩展到MOSS，介绍低饱和灰蓝／灰青主色、单一暖色点缀、重线与干笔质感。使用时明确写出媒介，再以自然句描述人物与真实环境，强调媒介句对这份适配器的作用。 | 模型介绍全文、指定版本元数据及首图的提示／参数／comfy字符串；原图HTTP403，未看任何例图 |
+| 工作流／LoRA对照 | [S08 LoRA Strength Grid：零权重与空触发基线的区别](#s08) | LoRA搭配·参数对照｜参考三提示、五权重的网格组织方法。 | 设计思路：风格强度与内容保留｜留一条不请求目标风格的提示，观察作用范围。 | [mr_p_m](https://civitai.com/models/3033699?modelVersionId=3446870) | 作者分享仅使用核心节点的网格流程：三条提示分别配0、0.4、0.7、1、1.3五档强度，每行同seed，再保存整张网格。保留一条不要求LoRA所学内容的提示，用于观察它是否也影响其他题材。 | 模型介绍全文、指定版本说明与配置文件元数据；未下载／打开JSON、未看网格图 |
+| 模型选型／社区实践 | [S09 Anima系14模型比较：把任务遵循与个人审美分开](#s09) | 模型选型·提示词组织｜参考同条件比较与任务检查表的写法。 | 设计思路：任务遵循与审美分评｜先检查姿态和空间要求，再按个人偏好选择画风。 | [AIスケッチ / ai_sketch](https://note.com/ai_sketch/n/n86dbfb22c5ca) | 作者称以14个Anima系模型生成336张，固定提示、seed和设置，分别比较简单／困难姿态、自然语言任务与画风偏好。文章公开检查项目和失败例，并记录作者与AI对同图审美排名不同；参考价值在比较方法与审美归属，而非将推荐顺序当作客观排名。 | note公开API文章文字全文约4261日文字符；未看图片表格、视频或附件 |
 
 ## 当日分享
 
@@ -94,13 +99,118 @@
 - 相关原始资料：https://github.com/taki-ttt/charadb/releases/tag/v1.0
 - 相关原始资料：https://charadb-2fi.pages.dev/
 
+<a id="s05"></a>
+
+### S05 Anima Character Sheet Designer：按视图独立生成角色设定表
+
+**适用方向：** 角色设定·多视图·提示词组织｜以外观标签和分视图提示组装设定表。
+
+**设计思路：** 外观与视图分工｜固定外观描述，各视图另写方向、景别与部位提示。
+
+- 原文标题：Anima Character Sheet Designer — v1.0。
+- 原作者／平台与原文：ukr8b3g-cmyk；PixAI／WD及基座作者见仓库链接；[原文](https://github.com/ukr8b3g-cmyk/Anima-Character-Sheet-Designer)。
+- 发布／更新与精确版本：2026-11-03 01:25:52 +08:00（最新提交）；v1.0；提交56a8aa61095e7166bb4b6fcf700d07fdd8900dd8；README快照。
+- 收录类型与内容形式：首次收录；本库概述，非原文转载或本库实测。
+- 原作者分享要点（本库概述）：作者提供最多13个视图独立生成、再拼成一页的Anima流程，可输入文字，或用本地PixAI／WD标签器提取外观标签。每个视图的基础提示可编辑，部位提示作为补充，最终运行文本可从view_records检查。
+- 公开资料与适用条件：模板为WAI-ANIMA v1.0 base1.0（Civitai版本2983680）与Anima Turbo LoRA v0.2（2979642）；作者模板LoRA0.7、10步、CFG1.5、Euler/simple。作者本地环境ComfyUI0.43.0／frontend1.57.4，依赖Save WEBP Meta；标签器二选一，ONNX CPU/GPU包也按实际环境选择，未自动安装。
+- 实际读取范围：README全文及最近3条提交说明；未读工作流JSON、标签器实现或示范图。
+- 本库整理备注与信息范围：图像输入实际是图像→标签→新文生图，不是视觉参考编辑，也没有旧Ref Adapter路径；脸、衣服、左右朝向及不可见部分可能变化。画布上的人台仅作预览，不送进Anima。页面测试数量和单次44.3秒是作者记录，不等于本库实测或稳定性证明。
+- 相关原始资料：https://github.com/ukr8b3g-cmyk/Anima-Character-Sheet-Designer/commit/56a8aa61095e7166bb4b6fcf700d07fdd8900dd8
+- 相关原始资料：https://github.com/ukr8b3g-cmyk/Anima-Character-Sheet-Designer/blob/56a8aa61095e7166bb4b6fcf700d07fdd8900dd8/examples/Anima-Character-Sheet-Designer-Text-or-Image.json
+
+<a id="s06"></a>
+
+### S06 MOSS YXBOX：在同一画布组织人物、文字与物体框
+
+**适用方向：** 多主体·文字版面·区域提示｜在画布上分配角色、物体和文字位置。
+
+**设计思路：** 版面与内容分区｜各框写对象或文字，整体描述另管全图场景。
+
+- 原文标题：MOSS YXBOX 控图排版。
+- 原作者／平台与原文：liangci-ai；基于ComfyUI官方Create Bounding Boxes与MOSS-Image Layout Prompt；[原文](https://github.com/liangci-ai/MOSS-YXBOX)。
+- 发布／更新与精确版本：2026-11-03 03:07:41 +08:00（最新提交）；main提交d2230b5e545afeb8344dcb7fc2fe3d44b53b3f66；最近里程碑v1.0.5，后续修复按提交区分。
+- 收录类型与内容形式：首次收录；本库概述，非原文转载或本库实测。
+- 原作者分享要点（本库概述）：作者把两个官方节点整合成中文布局工作台，支持物体／文字／角色框、参数锁、背景参照与布局导入导出。输出区分可编辑草稿和MOSS编译布局，便于查阅坐标与内容职责；最新提交修正上游空文本清画布等问题。
+- 公开资料与适用条件：需要自带MOSS-Image节点的ComfyUI。作者文档的编译布局为abs_centralized＋yxyx，以中心为原点；草稿为abs＋xyxy，以左上为原点，不能混用。背景图及隐藏框不写入items；无框时输出整体描述。前置／布局／后置文本按实际非空项组合。main可包含里程碑后的修复，不能仅按旧UI截图版本判断。
+- 实际读取范围：README开头约6000字符，另读PNG布局导入说明和第七节输出格式的相关段落；最近3条提交说明；未读全部README与实现。
+- 本库整理备注与信息范围：背景参照画布不等于图像作为生成器视觉条件。作者称与官方输出一致，本库未做字节比对或接入验证。导入参与分支识别是作者功能说明，未核实现；模型权重和采样设置未由这份节点文档确定。
+- 相关原始资料：https://github.com/liangci-ai/MOSS-YXBOX/commit/d2230b5e545afeb8344dcb7fc2fe3d44b53b3f66
+
+<a id="s07"></a>
+
+### S07 Sabikaze MOSS v1：灰蓝绿干笔动漫风格LoRA
+
+**适用方向：** 人物插画·风格LoRA｜参考灰蓝绿基调与少量暖色点缀的场景绘制。
+
+**美术风格方向：** 灰蓝绿·干笔动漫｜按作者描述，以重墨线、平面明暗和衣物背景干笔纹理营造安静氛围。
+
+- 原文标题：[MOSS Image] Sabikaze - grey-teal dry-brush anime style。
+- 原作者／平台与原文：lepetitprince716355；[原文](https://civitai.com/models/3033719?modelVersionId=3446890)。
+- 发布／更新与精确版本：2026-11-03 03:23:46.019 +08:00（版本发表）；模型3033719／版本3446890 v1；moss_sabikaze_v1.safetensors。
+- 收录类型与内容形式：首次收录；本库概述，非原文转载或本库实测。
+- 原作者分享要点（本库概述）：作者用同一组57张自生成素材将Sabikaze路线扩展到MOSS，介绍低饱和灰蓝／灰青主色、单一暖色点缀、重线与干笔质感。使用时明确写出媒介，再以自然句描述人物与真实环境，强调媒介句对这份适配器的作用。
+- 公开资料与适用条件：作者通用测试：MOSS-SFT INT8 ConvRot、Qwen3.5-9B、25步／CFG2.5／er_sde/simple／shift5、832×1248、LoraLoaderModelOnly强度1。触发前缀@z3-sabikaze.；作者称不写触发也会作用。首图元数据另列seed2026110312、qwen3.5_9b_w4a8_gptq.safetensors、flux2-vae_small.safetensors、denoise1，以及正负提示和节点参数字符串；这些是该图公开记录，不用通用建议补成实值。训练记录rank32／2000步／ai-toolkit。
+- 实际读取范围：模型介绍全文、指定版本元数据及首图的提示／参数／comfy字符串；原图HTTP403，未看任何例图。
+- 本库整理备注与信息范围：风格概括仅按作者文字；不推断人物体型、五官或模型稳定倾向。作者提醒商铺／墙面可能出现虚构招牌文字，即使提示禁止文字。首图comfy字符串含workflow: undefined，不能把取得字符串当作可直接导入的合法JSON或已还原工作流。资源许可标记要求署名，具体使用范围见版本页。
+- 相关原始资料：https://civitai.com/images/147713031
+
+<a id="s08"></a>
+
+### S08 LoRA Strength Grid：零权重与空触发基线的区别
+
+**适用方向：** LoRA搭配·参数对照｜参考三提示、五权重的网格组织方法。
+
+**设计思路：** 风格强度与内容保留｜留一条不请求目标风格的提示，观察作用范围。
+
+- 原文标题：LoRA Strength Grid (core nodes only)。
+- 原作者／平台与原文：mr_p_m；[原文](https://civitai.com/models/3033699?modelVersionId=3446870)。
+- 发布／更新与精确版本：2026-11-03 03:10:44.751 +08:00（版本发表）；模型3033699／版本3446870 v1.0；loraStrengthGridCore_v10.json，约68.95KB。
+- 收录类型与内容形式：首次收录；本库概述，非原文转载或本库实测。
+- 原作者分享要点（本库概述）：作者分享仅使用核心节点的网格流程：三条提示分别配0、0.4、0.7、1、1.3五档强度，每行同seed，再保存整张网格。保留一条不要求LoRA所学内容的提示，用于观察它是否也影响其他题材。
+- 公开资料与适用条件：作者测试环境ComfyUI0.27.1、SDXL系检查点；832×1216、28步、Euler ancestral、CFG5，模型与CLIP等强度，共15次采样。作者明确这些设置面向Illustrious系，其他基座需另核；0强度仍保留触发词，干净基线须另将触发留空。
+- 实际读取范围：模型介绍全文、指定版本说明与配置文件元数据；未下载／打开JSON、未看网格图。
+- 本库整理备注与信息范围：本库只汇总作者对照设计，未执行网格或新增自动实验。未读JSON，不能确认全部节点连线、隐藏设置或版本兼容。约7分钟是作者RTX4060 8GB个例，不作本库耗时保证。
+
+<a id="s09"></a>
+
+### S09 Anima系14模型比较：把任务遵循与个人审美分开
+
+**适用方向：** 模型选型·提示词组织｜参考同条件比较与任务检查表的写法。
+
+**设计思路：** 任务遵循与审美分评｜先检查姿态和空间要求，再按个人偏好选择画风。
+
+- 原文标题：【Anima系モデルの選び方】14本・336枚を総当たりして分かった「推し3本」と「個性派3本」。
+- 原作者／平台与原文：AIスケッチ / ai_sketch；[原文](https://note.com/ai_sketch/n/n86dbfb22c5ca)。
+- 发布／更新与精确版本：2026-11-02 13:33:49 +08:00（原文14:33:49 +09:00）；该篇公开文章；Anima_Compare_note.json附件未读取，14个模型的精确版本未逐枚核实。
+- 收录类型与内容形式：首次收录；本库概述，非原文转载或本库实测。
+- 原作者分享要点（本库概述）：作者称以14个Anima系模型生成336张，固定提示、seed和设置，分别比较简单／困难姿态、自然语言任务与画风偏好。文章公开检查项目和失败例，并记录作者与AI对同图审美排名不同；参考价值在比较方法与审美归属，而非将推荐顺序当作客观排名。
+- 公开资料与适用条件：作者称统一2B版、无LoRA，编码器qwen_3_06b_base.safetensors、VAE qwen_image_vae.safetensors，流程30步／CFG4／er_sde/simple。正文给出拳头透视提示及窗边写生自然语言范例；约定画面左右按观看者，右手按人物自身。RTX4070Ti SUPER约20秒是作者环境报告。
+- 实际读取范围：note公开API文章文字全文约4261日文字符；未看图片表格、视频或附件。
+- 本库整理备注与信息范围：图片中的14模型清单／版本与336张结果未由本库逐项核验。作者偏好的hikari、nyaIris、cotton等属于个人评价；计数、身体朝向和颜色仍有失败记录。“补充正面朝向”建议作者也标明未试，不改写成已验证方法。所有模型统一设置有助此轮比较，但不等于各模型最优配置。
+
 ## 来源覆盖与检索记录
 
 | 平台／吧名 | 实际入口、读取范围与结果 |
 |---|---|
-| 固定来源 | 两贴吧、bilibili、Reddit、Hugging Face、GitHub、Civitai与note.com已实际查询；详细读取范围随本轮整理补全。 |
+| stablediffusion吧 | 03:59:19，aiotieba4.8.2／仓库只读脚本CREATE最新列表1页30条，实际吧名stablediffusion；除置顶外已到11月1日，跨过上轮晨间窗口。读取11160517561首楼训练反馈，内容见后续补充。沿用上轮核对的无空格入口；本轮未重新请求带空格入口，未假称新的网页重定向验证。 |
+| comfyui吧 | 03:59:19，同工具CREATE列表1页28条，实际吧名comfyui；剔除旧置顶后已到10月29日。读取11160149511第1–2楼，是UltimateSDUpscaleFLSLLLite获取求助，未读到可用资源与教程，不写成解决方案。未启动Astron备用。 |
+| 贴吧补充搜索 | 全站最新“工作流 教程 分享”1页29条、“LoRA 提示词”1页30条；按实际吧名与原帖日期筛选，结果夹有旧帖和其他吧，未冒称近期全覆盖。两吧本轮各一页列表，不声称已读完所有历史或全部回复。 |
+| bilibili | 03:59前后，“ComfyUI 教程”按pubdate公开API返回20条，code0；已读标题、UP主、pubdate与相关两条的搜索简介。“生图 模型”查询HTTP412；Qwen2.1动作迁移、批量换装两条view API均412，网页打开也失败，正文／字幕／视频／配方未取得。近期候选仅留线索，不依据标题宣称效果。 |
+| Reddit | r/StableDiffusion最新50条与r/comfyui最新30条JSON请求均403；两轮含日期的英文workflow／LoRA／prompt及MOSS／Anima补查，仅返回旧帖或无关结果。未取得可靠本轮增量，不推断平台无更新；搜索摘要不记为已读原帖。 |
+| Hugging Face | 按lastModified检索text-to-image 40条，完整读取4份模型卡（S01–S03及SD1.4旧书插画LoRA）；另读S01固定配置与S03文件目录。明确区分完整权重、LoRA／LoHa、量化打包和镜像。未下载权重、未看HF示范。列表最新40条不代表覆盖所有新模型。 |
+| GitHub | 近期ComfyUI workflow仓库搜索15条、最近新建prompt相关仓库10条。S05 README全文＋3条提交说明；S06 README部分章节＋3条提交说明；另读VRM Pose Studio开头约1500字符。未安装或读这些项目的实现；已知ZuperWorkflow仅出现新push而未核实变化，本轮不重复计条目。 |
+| Civitai社区／论坛 | 最新文章25条、模型／版本30条。CharaDB及TKtagger文章全文；V67文章仅导论与前段；S07／S08模型介绍与指定版本全文，S07首图公开提示、参数及节点字符串。原图403；未读评论讨论、未取得S08配置正文，不将模型列表等同于逐项深入。 |
+| 其他作者论坛：note.com | 站内搜索403；RSS成功读取25条标题与日期，进一步读取Anima比较及HairDeck体验两篇全文。S09入正文，HairDeck作为邻近3D用途补充；note网页打开失败，但原文API可读，分别记录。 |
 
 ## 后续关注与更正
 
+- 贴吧训练反馈：[白泽千岁《孩子们，MOSS可能真的要大力出奇迹》](https://tieba.baidu.com/p/11160517561)，首楼2026-11-02 21:39:57。本库读首楼文字：作者为人物瞳孔与背部发条特征增加数据至近400张、训练至4000步后自述改善。数据量和步数一起改变，基座版本／对照图／精确参数未取得，不能归因于单个变量或推广成MOSS训练下限。保留作者个案，不据短帖宣称通用训练结论。
+- bilibili近期待补：[余小文AIGC《QwenImage2.1人物动作迁移》](https://www.bilibili.com/video/BV1zd4A61EVz/)，2026-11-02 23:30:25；[AI工作流《人物批量换装工作流》](https://www.bilibili.com/video/BV1RHx46AELU/)，2026-11-02 18:30:00。仅取得搜索标题／作者／日期及简介；详情受限，未把“完美复刻”“理论9999套”等标题措辞当结论。后续需要的是原视频步骤与实际公开配置。
+- 邻近3D用途：[混合順《ComfyUIでHairDeckを試してみた》](https://note.com/kongo_jun/n/n616292ee1c1c)，2026-11-02 23:10:34北京时间；原作者分享从人物图生成带绑定头发的ComfyUI流程，提供VRM／GLB附件。读文章全文约988日文字符，未看图或附件；38秒／8GB为其RTX4090环境个例。作者认为输入还原度仍有提升空间。本库未安装、下载模型或把3D头发流程当生图画风。
+- 移动打标工具线索：[Quocraft_AI《TKtagger - Android Tagging & Captioning App》](https://civitai.com/articles/37826)，2026-11-02 03:25:10北京时间，早于上轮晨间窗口，属于近期补录线索。文章全文仅介绍Android本地ONNX、无需服务器与多语言界面，指向[Quocraft1436/TKtaggerDroid](https://github.com/Quocraft1436/TKtaggerDroid)；未读仓库、未核具体模型和打标效果，不单凭功能清单推荐。
+- 风格系列补来源：[angelomaiota的V67系列文章](https://civitai.com/articles/37871)，2026-11-02 20:26:02北京时间。读导论及前段的摄影与绘画材质、东方人物方向说明，未读完全部组件、未看图。与[既有V67记录](../2026-10-30/notes/history/civitai.md#cv-17)同作者同系列，补充作者的组件组织思路；不把宣传中的museum-quality或8K词当质量证明，不据此假定所有版本可叠加。
+- 另读[Sergio2291的SD1.4旧书插画LoRA模型卡](https://huggingface.co/Sergio2291/sd14-lora-oldbookillustrations/blob/ce6f10ad3567443fdf145bee9fa28c0c7f98d322/README.md)全文：基座SD1.4、UNet rank6、训练数据gigant/oldbookillustrations，示范图未看。读取信息较少，作为不同家族与用途的补充线索；不根据“旧书”名称猜具体笔触或人物画法。
+- 高分辨率适配器的最新文件与README示范版本不一致（S03）；Anima设定表的图像→标签与直接参考编辑不同（S05）；零LoRA权重仍含触发词（S08）。这些条件随原作者版本更新再核对，本次不新增实验任务。
+- 本日先保存4项，再补齐5项、平台覆盖和已读线索。全部为资料阅读／本库概述；没有成图、加载、复跑或用户收益验证记录。
 
 [返回总索引](../../每日检索可速查总结.md)
