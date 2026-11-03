@@ -259,6 +259,14 @@
 
 **美术风格方向：** 清线赛璐璐·明亮角色海报｜4例呈现圆润脸型、大眼表情、清楚色块与简洁背景。
 
+| 内容 | 适用方向（短标注） | 美术风格／设计思路 | 原作者与原文 | 详情／读取范围 |
+|---|---|---|---|---|
+| LL_SchoolIdol近期目标与检索结论 | 人物插画·多主体互动·构图控制｜学习圆润人物、细净平涂与双人关系组织。 | 清线赛璐璐·明亮角色海报｜4例呈现圆润脸型、大眼表情、清楚色块与简洁背景。 | [エビフライ / @LL_SchoolIdol](https://x.com/LL_SchoolIdol) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md)；看4张原图；作者完整配方未找到 |
+| CharRef＋LLLite：身份与姿态分工 | 人物参考·多主体·姿态控制｜将人物参考与动作／区域条件分别组织。 | 设计思路：身份与动作分工｜参考图给外观，区域与姿态控制位置和动作。 | [quinteroac；ElectronGirl／toyxyz等见原文](https://github.com/quinteroac/ComfyUI-Anima-CharRef-LLLite) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-a)；README全文；未读JSON／实现、未复跑 |
+| Anima Regional：人物属性与交叉肢体归属 | 多主体·提示词组织｜分别管理人物身份、动作与共享场景。 | 设计思路：人物归属与共享上下文｜用区域和Ownership Hints表达交叉手臂、衣物的归属。 | [An1X3R](https://github.com/An1X3R/ComfyUI-Anima-Regional) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-b)；README全文；不是几何姿态控制 |
+| CELSYS：分层填色与局部修整 | 上色精修·后期编辑｜参考线稿与颜色分层、封闭填色和局部阴影整理。 | 设计思路：线稿与色面分层｜在独立颜色层处理闭合边界与阴影。 | [ClipStudioOfficial / CELSYS](https://tips.clip-studio.com/ja-jp/articles/9941) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-c)；教程正文；未读图片、未实际操作 |
+| Love Live动画／SIFAS画风资源候选 | 画风资源·LoRA选型｜查阅同题材的专用风格资源与基座限制。 | Love Live动画／游戏画风资源分享｜按各资源定位分清动画方向与SIFAS游戏方向。 | [King_Dong；CitronLegacy](https://civitai.com/models/2297589?modelVersionId=2585393) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-d)；模型／版本文字；未看样图，不认定目标作者使用 |
+
 用户指定[エビフライ @LL_SchoolIdol](https://x.com/LL_SchoolIdol)为绘图目标，并说明“基本近期的都可以”。本次已实际看4张近期原图，整理脸型五官、表情、体型比例、俯拍、双人环抱和海报排版；作者自述与本库观察分开。
 
 - 原作者完整教程／配方：暂未找到。已核对一条作者“MOSS Image很难”的原帖，不能据此认定目标作品使用该模型；搜索摘要中的CLIP STUDIO编辑说法尚未定位原帖。
