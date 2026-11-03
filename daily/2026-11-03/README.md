@@ -253,15 +253,18 @@
 
 <a id="ll-schoolidol-target"></a>
 
-## 主动搜索专题：LL_SchoolIdol近期作品与教程
+## 主动搜索专题：LL_SchoolIdol与莲之空官方二维立绘画法
 
-**适用方向：** 人物插画·多主体互动·构图控制｜学习圆润人物、细净平涂与双人关系组织。
+**适用方向：** 官方立绘还原·人物造型·画风选型｜追查莲之空二维造型与简洁上色的实现线索。
 
-**美术风格方向：** 清线赛璐璐·明亮角色海报｜4例呈现圆润脸型、大眼表情、清楚色块与简洁背景。
+**美术风格方向：** 莲之空二维人物·简洁色块｜目标莲之空例保留圆润脸型、大眼与发束，弱化复杂渲染。
 
 | 内容 | 适用方向（短标注） | 美术风格／设计思路 | 原作者与原文 | 详情／读取范围 |
 |---|---|---|---|---|
-| LL_SchoolIdol近期目标与检索结论 | 人物插画·多主体互动·构图控制｜学习圆润人物、细净平涂与双人关系组织。 | 清线赛璐璐·明亮角色海报｜4例呈现圆润脸型、大眼表情、清楚色块与简洁背景。 | [エビフライ / @LL_SchoolIdol](https://x.com/LL_SchoolIdol) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md)；看4张原图；作者完整配方未找到 |
+| LL_SchoolIdol近期目标与检索结论 | 官方立绘还原·人物造型·画风选型｜追查莲之空二维造型与简洁上色的实现线索。 | 莲之空二维人物·简洁色块｜目标莲之空例保留圆润脸型、大眼与发束，弱化复杂渲染。 | [エビフライ / @LL_SchoolIdol](https://x.com/LL_SchoolIdol) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md)；看4张原图及官方对照；作者完整配方未找到 |
+| 官方二维参照：制服与加贺友禅插画 | 官方立绘还原·人物造型｜对照莲之空二维造型、角色差异与上色层次。 | 莲之空二维角色插画｜柔和脸颊与大眼、纤细身形，配清楚发束与分区阴影。 | [Bandai Namco Music Live](https://www.bandainamcomusiclive.co.jp/info/pdf.php?id=6)；[DMM Factory联动页](https://factory.dmm.com/event/ishikawaken-hasunosora2024/) | [对照分析](notes/LL_SchoolIdol目标画风与教程检索.md#hasunosora-focus)；看官方PDF第2页与联动主视觉 |
+| 莲之空Anima角色集合 v1.0.1 / 2949527 | 官方立绘还原·角色LoRA·Anima｜研究莲之空角色造型与二维上色的公开案例。 | 二维偶像角色·清线色块｜所看三人例有大虹膜、清楚发束与硬边阴影，逆光较强。 | [NTR_BLACK](https://civitai.com/models/2627081?modelVersionId=2949527) | [E](notes/LL_SchoolIdol目标画风与教程检索.md#hasu-anima)；已看1例并读公开图工作流；示例LoRA文件与当前版本不同 |
+| 梢2721476／慈2716490：Illustrious角色LoRA | 角色造型·LoRA选型·Illustrious｜查阅梢与慈的发型配饰、角色词和叠加条件。 | 角色资源·柔和精细渲染｜所看两例呈现密集发丝高光与柔和肤色，区别于目标的简洁色块。 | [whitewing2012：梢](https://civitai.com/models/2420628?modelVersionId=2721476)；[慈](https://civitai.com/models/2416129?modelVersionId=2716490) | [F](notes/LL_SchoolIdol目标画风与教程检索.md#hasu-il)；看两例及参数；LoRA标识与AutoV3匹配，非纯角色LoRA效果 |
 | CharRef＋LLLite：身份与姿态分工 | 人物参考·多主体·姿态控制｜将人物参考与动作／区域条件分别组织。 | 设计思路：身份与动作分工｜参考图给外观，区域与姿态控制位置和动作。 | [quinteroac；ElectronGirl／toyxyz等见原文](https://github.com/quinteroac/ComfyUI-Anima-CharRef-LLLite) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-a)；README全文；未读JSON／实现、未复跑 |
 | Anima Regional：人物属性与交叉肢体归属 | 多主体·提示词组织｜分别管理人物身份、动作与共享场景。 | 设计思路：人物归属与共享上下文｜用区域和Ownership Hints表达交叉手臂、衣物的归属。 | [An1X3R](https://github.com/An1X3R/ComfyUI-Anima-Regional) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-b)；README全文；不是几何姿态控制 |
 | CELSYS：分层填色与局部修整 | 上色精修·后期编辑｜参考线稿与颜色分层、封闭填色和局部阴影整理。 | 设计思路：线稿与色面分层｜在独立颜色层处理闭合边界与阴影。 | [ClipStudioOfficial / CELSYS](https://tips.clip-studio.com/ja-jp/articles/9941) | [详情](notes/LL_SchoolIdol目标画风与教程检索.md#method-c)；教程正文；未读图片、未实际操作 |
@@ -270,7 +273,8 @@
 用户指定[エビフライ @LL_SchoolIdol](https://x.com/LL_SchoolIdol)为绘图目标，并说明“基本近期的都可以”。本次已实际看4张近期原图，整理脸型五官、表情、体型比例、俯拍、双人环抱和海报排版；作者自述与本库观察分开。
 
 - 原作者完整教程／配方：暂未找到。已核对一条作者“MOSS Image很难”的原帖，不能据此认定目标作品使用该模型；搜索摘要中的CLIP STUDIO编辑说法尚未定位原帖。
-- 可借鉴资料：CharRef＋LLLite身份与姿态分工、Anima Regional人物归属、CELSYS分层填色教程，以及King_Dong和CitronLegacy的Love Live画风资源。均为其他作者分享，未验证是目标作者用法或能达到同等效果。
+- 18:19起按用户补充聚焦莲之空官方二维画法：新增两份官方图像参照、NTR_BLACK的Anima作品专用LoRA，以及whitewing2012的梢／慈Illustrious角色LoRA。已看3张资源例图并读元数据，重点比较脸眼造型、发型、人物比例与阴影。Anima公开案例有制作分支可读，但示例与当前下载文件不一致；不宣称原样可复现。
+- 角色资源不自动等于画风还原。所看Illustrious例图叠加发光／眼睛等资源，渲染更精细；原泛Love Live／SIFAS资源降为次要候选。CharRef、Regional与CELSYS教程保留作动作和后期辅助，均非已证实的目标作者配方。
 - [完整目标分析、作品直达链接与教程清单](notes/LL_SchoolIdol目标画风与教程检索.md)保留精确版本、阅读范围、未取得信息及访问限制。没有转载图片或运行生图。
 - 本专题为额外定向研究，未重新执行全部平台；每日广泛发现仍为原10项，不将目标参考作品混计为10项中的新增教程。
 
