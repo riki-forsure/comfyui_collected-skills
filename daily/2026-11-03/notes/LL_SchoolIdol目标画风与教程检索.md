@@ -57,7 +57,7 @@
 - 本次读README全文；版本提交 `cce21bbfb804aacaa1a374e4c6f0ea52bc3bddbe`（2026-10-31 03:46:16 +08:00）。[固定文档](https://github.com/quinteroac/ComfyUI-Anima-CharRef-LLLite/blob/cce21bbfb804aacaa1a374e4c6f0ea52bc3bddbe/README.md)。
 - 作者提供角色参考＋3D姿态、1–3张参考拼接＋区域图的流程入口。其样例为Anima Turbo 8步／CFG1、Ref Adapter v2；LLLite在Anima Base上训练，Turbo属于实验应用。文档称双人受支持，三人可能混特征。
 - 对目标的参考价值：可学习抱起、环颈等动作中“谁是谁”与姿态条件分工。参考身份不等于精确动作，区域控制也不自动解决每根手指和遮挡。
-- 读取边界：未看此项目示范图、未读JSON或实现，未加载／复跑。这份资源已在[10月31日D04](../README.md#s05)相关路线之外另有[历史日报记录](../../2026-10-31/README.md#d04)，此次按目标重读，不作为新的独立效果证据。
+- 读取边界：未看此项目示范图、未读JSON或实现，未加载／复跑。这份资源已在[10月31日D04](../../2026-10-31/README.md#d04)收录，此次按目标重读，不作为新的独立效果证据。
 
 ### B. 双人属性与交叉肢体归属：An1X3R 的 Anima Regional
 
