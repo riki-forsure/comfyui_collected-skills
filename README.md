@@ -20,6 +20,7 @@
 | [资料库维护指南](docs/资料库维护指南.md) | 去重、更正、失效链接与索引维护 |
 | [搜索 skill](skills/image-workflow-research/SKILL.md) | 面向每日广泛发现的搜索方法与按需深入学习 |
 | [贴吧专用工具](docs/贴吧检索工具使用说明.md) | 每日默认 aiotieba；Astron MCP 仅留档备用 |
+| [bilibili专用工具](docs/bilibili检索工具使用说明.md) | 已实测最新搜索和视频简介；字幕需要现有登录态，CLI仅备用 |
 | [AGENTS.md](AGENTS.md) | 后续助手的执行入口 |
 
 ## 每日主要发现什么
