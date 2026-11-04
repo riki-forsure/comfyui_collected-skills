@@ -18,7 +18,7 @@
 
 | 类别 | 分享／资源与版本 | 适用方向（短标注） | 美术风格／设计思路 | 原作者与原文 | 分享要点／可学习经验 | 读取状态 |
 |---|---|---|---|---|---|---|
-| 后训练／少步蒸馏LoRA | [N01 Krea2 Turbo三步LoRA：区分采样提速与完整流程耗时](#n01) | 少步生成·Krea2适配器｜查阅三步蒸馏的文件格式、采样条件与取舍。 | — | [lvladikov；基座Krea团队](https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA) | 作者从既有四步适配器继续训练三步LoRA，提供Diffusers与ComfyUI键名两种文件；两者属于同一适配器，三步提速不包括编码和解码。 | 固定revision发布说明、Files与ComfyUI等前约10000字符；检查点说明全文；未读训练后半、工作流JSON或示范图。 |
+| 后训练／检查点实质更新 | [N01 Krea2 Turbo三步LoRA更新：chk00030000→chk00066000](#n01) | 少步生成·Krea2适配器｜查阅三步蒸馏的文件格式、采样条件与取舍。 | — | [lvladikov；基座Krea团队](https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA) | 相比11月1日chk00030000，当前更新到chk00066000；作者给出新的训练样本与纹理指标，仍需区分三步去噪时间和完整流程耗时。 | 固定revision发布说明、Files与ComfyUI等前约10000字符；检查点说明全文；未读训练后半、工作流JSON或示范图。 |
 | 混合检查点／MOSS画风 | [N02 cocoamixMOSS：区分普通、Turbo与量化版本](#n02) | 人物插画·模型选型·MOSS｜区分普通与Turbo配方，查看眼睛和配色写法。 | 美术风格方向：细线萌系·柔和渐层｜本例圆脸大眼、眨眼笑，发束高光与白色褶饰突出。 | [ccooccoo](https://civitai.com/models/3035448?modelVersionId=3451079) | 作者以MOSS、自训模型与少步适配器做混合发布，提供普通与Turbo路线，并说明瞳孔和鲜艳配色的提示；量化另为文件版本。 | 模型说明与前三个版本元数据；实际看147939778一张例图，未取得该图参数或训练配方。 |
 | 提示词／多人构图经验 | [N03 Illustrious三人构图：人数词与群体姿态词的区别](#n03) | 多主体关系·构图·Illustrious｜比较群体姿态词对三人前景与间距的影响。 | 设计思路：人数与站位关系｜人数词之外补充并排、靠头或排队等空间关系。 | [shyamalan](https://civitai.com/articles/37976) | 作者在Illustrious中按每词8次生成记录三人前景的出现次数、间距和互动倾向，展示群体姿态词并非同义替换。 | 文章正文全文；未看例图、未取得精确检查点和完整提示／seed。 |
 
@@ -26,12 +26,12 @@
 
 <a id="n01"></a>
 
-### N01 Krea2 Turbo三步LoRA：区分采样提速与完整流程耗时
+### N01 Krea2 Turbo三步LoRA更新：chk00030000→chk00066000
 
 **适用方向：** 少步生成·Krea2适配器｜查阅三步蒸馏的文件格式、采样条件与取舍。
 
-
-- 原作者与原文：[lvladikov《Krea 2 Turbo — 3-Step Distillation LoRA》](https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA)。首次收录；当前revision `885b61599dd1c152f293ad0bc52426a8a8ac4a42`，提交2026-11-05 03:32:47 +08:00，非首发时间证明。
+- 原作者与原文：[lvladikov《Krea 2 Turbo — 3-Step Distillation LoRA》](https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA)。本次为[11月1日N02旧检查点](../2026-11-01/README.md#n02)的实质更新；当前revision `885b61599dd1c152f293ad0bc52426a8a8ac4a42`，提交2026-11-05 03:32:47 +08:00，非首发时间证明。
+- 相比旧记录：训练样本由30,000增至66,000，22条测试提示上的纹理比由作者原报1.11升为1.26；这不是跨版本整体画质已验证提高，也没有同图独立复核。
 - 作者分享要点：在Krea2 Turbo上做三步蒸馏，从已发布四步LoRA权重开始；rank64、228模块。作者报告22条测试提示上的细节指标与采样时间，称训练仍在继续。细节统计高于教师不等于整体画质更好，结果也不等于保持教师原图构图。
 - 公开配置：ComfyUI使用 `krea2_turbo_3step_rank_64_lora_comfyui.safetensors`，作者设置3步、CFG1、Euler/simple、LoRA1.0；Diffusers文件仅键名不同，不能同时加载两枚当作额外增强。卡片将Diffusers guidance_scale0与ComfyUI CFG1对应，不能把0照搬到ComfyUI。
 - [检查点说明](https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA/blob/885b61599dd1c152f293ad0bc52426a8a8ac4a42/krea2_turbo_3step_rank_64_lora_checkpoint_info.md)全文已读：当前两文件对应chk00066000；历史chk00042000等另在_archive，不由不带编号的文件名判断版本。
@@ -75,5 +75,7 @@
 ## 后续关注与更正
 
 首批已读内容先保存，其余资料继续增量整理；访问、正文读取、配置取得和效果验证分别记录。
+
+更正（11月5日04:03）：首批将N01误记首次收录，经全库去重后改为11月1日N02的检查点更新；已补旧记录回链与变化，不新增独立资源计数。
 
 [返回总索引](../../每日检索可速查总结.md)
