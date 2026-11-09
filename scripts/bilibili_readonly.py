@@ -30,6 +30,7 @@ def video_row(data, detail=False):
         "url": f"https://www.bilibili.com/video/{bvid}/",
         "title": html.unescape(re.sub(r"<[^>]*>", "", data.get("title", ""))),
         "author": (data.get("owner") or {}).get("name") if detail else data.get("author"),
+        "author_uid": (data.get("owner") or {}).get("mid") if detail else data.get("mid"),
         "published_at": date_text(data.get("pubdate")),
         "description": data.get("desc" if detail else "description", ""),
     }
@@ -42,7 +43,7 @@ def video_row(data, detail=False):
 
 
 async def read(args):
-    from bilibili_api import Credential, request_settings, search, video
+    from bilibili_api import Credential, request_settings, search, user, video
 
     # aiohttp-backed SDK calls need an explicit proxy in this executor.
     proxy = urllib.request.getproxies().get("https") or urllib.request.getproxies().get("http", "")
@@ -66,6 +67,20 @@ async def read(args):
                 "items": rows[:args.limit], "count": len(rows[:args.limit]),
                 "scope": "One search page; search descriptions only. Date filtering does not establish complete coverage."}
     cred = Credential(sessdata=os.environ.get("BILIBILI_SESSDATA") or None)
+    if args.mode == "uploader":
+        data = await user.User(args.uid, credential=cred).get_videos(
+            pn=args.page, ps=30, keyword=args.query or "", order=user.VideoOrder.PUBDATE,
+        )
+        rows = [video_row(dict(row, pubdate=row.get("created")))
+                for row in data.get("list", {}).get("vlist", [])]
+        dates = [row["published_at"] for row in rows if row["published_at"]]
+        if args.since:
+            rows = [row for row in rows if row["published_at"] and row["published_at"] >= args.since]
+        return {"auth_mode": "provided_session" if cred.sessdata else "guest",
+                "uid": args.uid, "query": args.query or "", "page": data.get("page"),
+                "page_date_range": [min(dates), max(dates)] if dates else [],
+                "items": rows[:args.limit], "count": len(rows[:args.limit]),
+                "scope": "One uploader page, optionally keyword-filtered; metadata only. Check page count before claiming series coverage."}
     if args.mode == "subtitle" and not cred.sessdata:
         return {"auth_mode": "guest", "status": "login_required", "segments": [],
                 "scope": "No subtitle obtained. BILIBILI_SESSDATA is not configured; no login or cookie extraction attempted."}
@@ -102,11 +117,12 @@ async def read(args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("mode", choices=["search", "info", "subtitle"])
+    parser.add_argument("mode", choices=["search", "uploader", "info", "subtitle"])
     parser.add_argument("--query")
     parser.add_argument("--bvid")
+    parser.add_argument("--uid", type=int)
     parser.add_argument("--page", type=int, default=1)
-    parser.add_argument("--limit", type=int, choices=range(1, 21), default=20)
+    parser.add_argument("--limit", type=int, choices=range(1, 31), default=20)
     parser.add_argument("--since", help="Beijing ISO date; local filtering of this page only")
     parser.add_argument("--part", type=int, default=1)
     parser.add_argument("--language", default="zh-CN", help="Exact returned language code; AI tracks must be selected explicitly")
@@ -115,7 +131,9 @@ def main():
         parser.error("page and part must be positive")
     if args.mode == "search" and not args.query:
         parser.error("search requires --query")
-    if args.mode != "search" and not re.fullmatch(r"BV[0-9A-Za-z]{10}", args.bvid or ""):
+    if args.mode == "uploader" and (args.uid or 0) < 1:
+        parser.error("uploader requires a positive --uid")
+    if args.mode in ("info", "subtitle") and not re.fullmatch(r"BV[0-9A-Za-z]{10}", args.bvid or ""):
         parser.error("info/subtitle require a valid --bvid")
     if args.since:
         try:
