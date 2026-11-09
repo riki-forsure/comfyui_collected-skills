@@ -40,7 +40,7 @@
 
 ## bilibili 每日工具
 
-优先使用 bilibili-api-python 17.4.2 的[只读脚本](../../../scripts/bilibili_readonly.py)，按pubdate搜索、按BV号去重再读简介；环境准备、上游归档状态、字幕登录要求与备用范围见[工具说明](../../../docs/bilibili检索工具使用说明.md)。显式沿用继承代理和证书验证，不将裸HTTP的412推广成专用工具均不可读。游客态未返回字幕时标读取限制；搜索简介、完整简介、字幕、画面与配置分开记录。bilibili-cli仅备用，不循环换工具或批量重试，不自动登录／提取Cookie／下载视频／ASR。
+每日B站采用bilibili-api-python17.4.2＋FFmpeg＋Tesseract OCR：基础脚本负责search／uploader／info／subtitle，精选视频按工具说明用bilibili_deep_readonly.py取得必要媒体、抽帧与核字；有讲解且需要时用bilibili_asr.py辅助定位。复用环境与缓存、继承代理和TLS，不自动登录或提取Cookie；音视频与完整转录不入库，OCR／ASR不冒充已核原文。Sena404以UID341674866增量跟进，作者跟踪不替代广泛发现。 先读[工具说明](../../../docs/bilibili检索工具使用说明.md)，按简介→平台字幕→必要画面／OCR→可选ASR逐层补读；脚本限制默认单分P600秒、每条流40MiB、短边480，媒体只用SDK响应地址与一个备用，不枚举签名或循环重试。实际看图才写视觉观察，原文／OCR／ASR分别标注。
 
 ## 用合适入口读取
 
