@@ -20,7 +20,8 @@
 | [资料库维护指南](docs/资料库维护指南.md) | 去重、更正、失效链接与索引维护 |
 | [搜索 skill](skills/image-workflow-research/SKILL.md) | 面向每日广泛发现的搜索方法与按需深入学习 |
 | [贴吧专用工具](docs/贴吧检索工具使用说明.md) | 每日默认 aiotieba；Astron MCP 仅留档备用 |
-| [bilibili专用工具](docs/bilibili检索工具使用说明.md) | 已实测最新搜索和视频简介；字幕需要现有登录态，CLI仅备用 |
+| [bilibili专用工具](docs/bilibili检索工具使用说明.md) | 每日SDK搜索＋FFmpeg抽帧／OCR，口播按需ASR，Sena404按UID增量跟进 |
+| [Sena404画师串与相关分享](daily/2026-11-09/notes/Sena404画师串与相关分享.md) | 第1–24期字面标签、用途、画风／设计与配置差异，以及相关教程入口 |
 | [AGENTS.md](AGENTS.md) | 后续助手的执行入口 |
 
 ## 每日主要发现什么
@@ -53,7 +54,7 @@
 
 已在 Codex 设置每天 **北京时间 04:00** 的搜索任务。调度由 Codex 自动化执行；本仓库保存规则与发现结果，克隆仓库不会自动创建该任务。
 
-最新归档：[2026-11-09 每日社区发现](daily/2026-11-09/README.md)，归档11项汇总：9项首次收录、2项旧资源更新（含用户指定降噪skill与Sena404资料补录），涵盖角色LoRA标注、Juggernaut Moss全量微调、SnapRef stable、透明素材、装饰画风、Nuke／P-H3工作流、3D参考图设计、Wardrobe V6与GPT二次元图降噪。Reddit最新列表受限但旧原帖部分可读，B站平台字幕未取得，授权试运行另取得Sena404抽样画面／OCR与降噪视频的ASR草稿，详见日报。此前[11月8日](daily/2026-11-08/README.md)9项继续保留；[11月7日](daily/2026-11-07/README.md)9项、[11月6日](daily/2026-11-06/README.md)9项、[11月5日](daily/2026-11-05/README.md)9项、[11月4日](daily/2026-11-04/README.md)8项、[11月3日](daily/2026-11-03/README.md)10项及主动画风专题、[11月2日](daily/2026-11-02/README.md)10项、[11月1日](daily/2026-11-01/README.md)11项与[10月31日](daily/2026-10-31/README.md)13项继续保留。
+最新归档：[2026-11-09 每日社区发现](daily/2026-11-09/README.md)，归档12项主题入口（含Sena404画师串第一至二十四期与相关分享补录），涵盖角色LoRA标注、Juggernaut Moss全量微调、SnapRef stable、透明素材、装饰画风、Nuke／P-H3工作流、3D参考图设计、Wardrobe V6与GPT二次元图降噪。Reddit最新列表受限但旧原帖部分可读，B站平台字幕未取得，授权试运行另取得Sena404抽样画面／OCR与降噪视频的ASR草稿，详见日报。此前[11月8日](daily/2026-11-08/README.md)9项继续保留；[11月7日](daily/2026-11-07/README.md)9项、[11月6日](daily/2026-11-06/README.md)9项、[11月5日](daily/2026-11-05/README.md)9项、[11月4日](daily/2026-11-04/README.md)8项、[11月3日](daily/2026-11-03/README.md)10项及主动画风专题、[11月2日](daily/2026-11-02/README.md)10项、[11月1日](daily/2026-11-01/README.md)11项与[10月31日](daily/2026-10-31/README.md)13项继续保留。
 
 每次在 `daily/` 下建立当天的日期目录，以 `README.md` 汇总当日发现。同日重跑更新原目录；无优质新增或检索受限时，也如实记录实际覆盖和信息缺口。优先关注新增分享与实质更新，经典教程可补录并注明真实日期。
 
