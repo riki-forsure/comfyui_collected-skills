@@ -1,0 +1,2 @@
+# Optional separate process/environment; core discovery and OCR do not need ASR.
+faster-whisper==1.2.1
