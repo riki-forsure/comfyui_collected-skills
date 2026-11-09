@@ -167,6 +167,7 @@ Acumen时效线索检索也已调用，返回主要为9月以前工具／版本�
 
 - [白泽千岁MOSS训练感想](https://tieba.baidu.com/p/11163315077)：首楼与两条回复已读，但图中参数未取得；图片、楼中楼和完整训练配置另核。本次没有将评论者个人“1600步／rank16”等写成楼主实值。
 - bilibili[Sena404《anima画师串第二十二期》](https://www.bilibili.com/video/BV1UQ4u6kENU/)（11月3日18:18:32）、[超级无极醒目靓仔《k2接力anima形成新的画风》](https://www.bilibili.com/video/BV1j24K6JEeG/)（09:49:29）在最新搜索中发现，简介均为“-”；尚未取得视频、画师串或配方，不从标题推断实际画风和兼容性。
+- 2026-11-09补充：上述Sena404第二十二期已通过用户授权的视频工具试运行取得画师标签与示范参数，见[11月9日N11](../2026-11-09/README.md#n11)及[读取范围](../2026-11-09/notes/b站云端工具试运行.md)。11月4日仅读简介的历史状态保留；另一作者视频与Sena404全系列仍未据此补称已读。
 - [ccooccoo《moss image workflow! t2i and i2i》](https://civitai.com/articles/37927)，11月3日16:06:31.094发表。正文全文说明i2i需遮罩、右键进入Mask Editor；附件请求返回400，未取得实际JSON。与D06是不同作者、不同入口，不合并成已读完整工作流。
 - [VD123DV / Krea-2-Kroma-v0.3.1](https://huggingface.co/VD123DV/Krea-2-Kroma-v0.3.1)模型卡全文已读：将lodestones/Kroma既有v0.3.1转换为Diffusers，且仅transformer改变。其11月3日新提交不代表Kroma当日新训练；正文明确源revision与文件SHA256，本轮不将转换仓库列为独立新后训练。
 - [bunnycore / MOSSArt](https://huggingface.co/bunnycore/MOSSArt)短模型卡全文已读，基座MOSS-Image-SFT、作者建议0.2–0.4，称使用多种艺术／动漫／webtoon素材；未看例图或取得更多训练说明，不根据名称或素材类别猜人物画法。
