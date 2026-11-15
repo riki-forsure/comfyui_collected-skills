@@ -21,7 +21,7 @@
 | [搜索 skill](skills/image-workflow-research/SKILL.md) | 面向每日广泛发现的搜索方法与按需深入学习 |
 | [贴吧专用工具](docs/贴吧检索工具使用说明.md) | 每日默认 aiotieba；Astron MCP 仅留档备用 |
 | [bilibili专用工具](docs/bilibili检索工具使用说明.md) | 每日SDK搜索＋FFmpeg抽帧／OCR，口播按需ASR，Sena404按UID增量跟进 |
-| [Sena404画师串与相关分享](daily/2026-11-09/notes/Sena404画师串与相关分享.md) | 第1–24期字面标签、用途、画风／设计与配置差异，以及相关教程入口 |
+| [Sena404画师串与相关分享](daily/2026-11-09/notes/Sena404画师串与相关分享.md) | 第1–24期历史基础及第25–28期增量，含标签、用途、画风／设计与读取范围 |
 | [AGENTS.md](AGENTS.md) | 后续助手的执行入口 |
 
 ## 每日主要发现什么
@@ -54,7 +54,9 @@
 
 已在 Codex 设置每天 **北京时间 04:00** 的搜索任务。调度由 Codex 自动化执行；本仓库保存规则与发现结果，克隆仓库不会自动创建该任务。
 
-最新归档：[2026-11-15 每日社区发现](daily/2026-11-15/README.md)，已归档11项，包含Serenity续训、HaDeS v1.0、PrismPalette v3、像素图标、风格组合、Anima映射排错、提示与场景工具、H3角色替换及贴吧讨论。Sena水位仍为第27期；Reddit列表／Sena UID入口等受限，具体资料部分可读，读取范围见日报，未复跑。
+最新归档：[2026-11-16 每日社区发现](daily/2026-11-16/README.md)，已归档9项，包含Raehoshi MOSS、漫画上色、角色／姿态参考、背景LoRA训练、超现实摄影、H3布局、拆部建模、Sena404第28期及贴吧实践。Sena具体视频和关键帧已读，水位推进至投稿28／片内38；Reddit列表／Sena UID等受限，实际读取范围见日报，未复跑。
+
+此前归档：[2026-11-15 每日社区发现](daily/2026-11-15/README.md)，已归档11项，包含Serenity续训、HaDeS v1.0、PrismPalette v3、像素图标、风格组合、Anima映射排错、提示与场景工具、H3角色替换及贴吧讨论。Sena水位仍为第27期；Reddit列表／Sena UID入口等受限，具体资料部分可读，读取范围见日报，未复跑。
 
 此前归档：[2026-11-14 每日社区发现](daily/2026-11-14/README.md)，已归档10项，包含Kromoss／MossYume后训练、绘本历史配方、MOSS框选与BBox1.2、风格LoRA训练、混合材质提示、提示清理、Sena404第27期、SnapRef与MOSS训练导读。Reddit列表、Sena UID入口等受限，具体视频与原帖部分可读；读取范围及配置条件见日报，未复跑。
 
