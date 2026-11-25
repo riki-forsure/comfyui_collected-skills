@@ -95,7 +95,7 @@ SnapRef v2s PRE1 新增纯画风参考。Krea 工作流用文字表达重心、�
 **设计思路：姿态文字化｜把重心、四肢角度、视线和取景拆成文字约束。**
 
 - 原作者与原文：Reddit u/Intelligent-Dog9152，工作流由 zeryabshahid-ui 发布 · [原帖](https://www.reddit.com/r/StableDiffusion/comments/1y55af3/krea_modeling_photography/) · [工作流快照](https://github.com/zeryabshahid-ui/Comfyui-Workflows/tree/0b6d7471e27fc1b3929041a2a32c6bd89f2d5135)
-- 作者说明：11 月 25 日检索到原帖，原页显示相对时间。GitHub 配套提交同日 15:29，固定版本 0b6d747。Krea Model 的 Custom Pose 启用时由 Qwen3-VL 4B 读参考图的动作与机位，关闭时从人物、服装、场景生成动作。另一份图用 __modelposes__ 随机抽取姿势，再用 VLM 扩写。两份图都用语言条件引导，作者提醒复杂手部姿态误差更明显。
+- 作者说明：11 月 26 日凌晨检索到原帖，原页显示约两小时前。GitHub 配套提交于 11 月 25 日 15:29，固定版本 0b6d747。Krea Model 的 Custom Pose 启用时由 Qwen3-VL 4B 读参考图的动作与机位，关闭时从人物、服装、场景生成动作。另一份图用 __modelposes__ 随机抽取姿势，再用 VLM 扩写。两份图都用语言条件引导，作者提醒复杂手部姿态误差更明显。
 - 公开配置：Krea 2 Turbo INT8 ConvRot、4-step LoRA、Qwen3-VL 4B FP8 scaled、Qwen Image VAE、4 步／CFG 1／Euler simple／1024×1024。两份 JSON 的采样器设置相符，均为随机种子模式。逐图 seed 未取得。依赖和可编辑的系统提示见原帖及工作流。
 - 社区反馈及读取：一条可见回复认可用 VLM 组织动作文字的做法，未提供复跑证据。读了主帖和两份工作流 JSON，未视读出图或验证姿态精度。
 
