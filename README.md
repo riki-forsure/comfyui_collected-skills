@@ -21,7 +21,7 @@
 | [搜索 skill](skills/image-workflow-research/SKILL.md) | 面向每日广泛发现的搜索方法与按需深入学习 |
 | [贴吧专用工具](docs/贴吧检索工具使用说明.md) | 每日默认 aiotieba；Astron MCP 仅留档备用 |
 | [bilibili专用工具](docs/bilibili检索工具使用说明.md) | 每日SDK搜索＋FFmpeg抽帧／OCR，口播按需ASR，Sena404按UID增量跟进 |
-| [Sena404画师串与相关分享](daily/2026-11-09/notes/Sena404画师串与相关分享.md) | 第1–24期历史基础及第25–33期增量，含标签、用途、画风／设计与读取范围 |
+| [Sena404画师串与相关分享](daily/2026-11-09/notes/Sena404画师串与相关分享.md) | 第1–24期历史基础及第25–34期增量，含标签、用途、画风／设计与读取范围 |
 | [AGENTS.md](AGENTS.md) | 后续助手的执行入口 |
 
 ## 每日主要发现什么
@@ -54,7 +54,9 @@
 
 已在 Codex 设置每天 **北京时间 04:00** 的搜索任务。调度由 Codex 自动化执行；本仓库保存规则与发现结果，克隆仓库不会自动创建该任务。
 
-最新归档：[2026-11-28 每日社区发现](daily/2026-11-28/README.md)，已归档8项，含Ming设计、MOSS小编码器、Anima姿态、双基座画风、漫画、提示组织及表情调整。Sena404的UID入口受限，关键词范围仍见投稿33／片内43。部分Reddit列表、B站字幕及Civitai逐图配置受限。
+最新归档：[2026-11-29 每日社区发现](daily/2026-11-29/README.md)，已归档9项，含World Streets v3／v4、Krea人像与LoRA、PiD解码、旧照批修和H3动作扩写。Sena404新增投稿34／片内44，UID入口、部分Reddit列表、B站字幕和Civitai配方受限。
+
+此前归档：[2026-11-28 每日社区发现](daily/2026-11-28/README.md)，已归档8项，含Ming设计、MOSS小编码器、Anima姿态、双基座画风、漫画、提示组织及表情调整。Sena404的UID入口受限，关键词范围仍见投稿33／片内43。部分Reddit列表、B站字幕及Civitai逐图配置受限。
 
 此前归档：[2026-11-27 每日社区发现](daily/2026-11-27/README.md)，已归档9项，含MOSS 39K、Anima批量预览与像素解码、World Streets v2、建筑精修、多视角、Tile和提示词实践。Sena404维持投稿33／片内43，Reddit最新列表、B站字幕和部分Civitai逐图配方受限。
 
